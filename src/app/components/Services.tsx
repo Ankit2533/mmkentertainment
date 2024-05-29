@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const Services = () => {
   return (
     <section className="text-gray-600 body-font ">
@@ -63,7 +63,7 @@ const Services = () => {
           ].map((item, index) => (
             <div key={index} className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
-                <img
+                <Image 
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={item.imgSrc}

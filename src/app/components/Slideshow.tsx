@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import Image from "next/image";
 
 import '/styles/style.css';
 
@@ -28,15 +29,15 @@ const slideshow = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><img src="./images/Events/1.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./images/Events/2.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./images/Events/3.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./images/Events/4.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./images/Events/5.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./images/Events/6.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./images/Events/7.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./images/Events/8.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="./images/Events/9.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><Image  src="./images/Events/1.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><Image  src="./images/Events/2.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><Image  src="./images/Events/3.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><Image  src="./images/Events/4.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><Image  src="./images/Events/5.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><Image  src="./images/Events/6.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><Image  src="./images/Events/7.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><Image  src="./images/Events/8.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><Image  src="./images/Events/9.jpg" alt="" /></SwiperSlide>
       </Swiper>
     </>
   )

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
@@ -5,12 +6,12 @@ const Hero = () => {
     <section className="text-gray-600 body-font">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 relative">
-          <img
+          <Image 
             className=" left-0 w-full h-full"
             alt="hero1"
             src="/images/Events/1.jpg"
           />
-          <img
+          <Image 
             className="  w-50% h-50%"
             alt="hero2"
             src="/images/Events/2.jpg"

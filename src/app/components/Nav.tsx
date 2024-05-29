@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
@@ -21,7 +22,7 @@ export const Navbar = () => {
     <>
       <nav className="flex items-center flex-wrap bg-[#091933] p-1 pl-15 pr-15 ">
         <Link href="/" className="inline-flex items-center p-1 mr-4">
-          <img src="./images/logo.png" alt="" className="w-20" />
+          <Image  src="./images/logo.png" alt="" className="w-20" />
           <span className="text-xl text-white font-bold tracking-wide">
             MMKEntertainment
           </span>

@@ -1,7 +1,7 @@
 "use client";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import Image from "next/image";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -38,31 +38,31 @@ const Sweep = () => {
         className="mySweep"
       >
         <SwiperSlide>
-          <img src="/images/Services/wedding.png" alt="Wedding" />
+          <Image  src="/images/Services/wedding.png" alt="Wedding" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Services/social.png" alt="Social Get-Together" />{" "}
+          <Image  src="/images/Services/social.png" alt="Social Get-Together" />{" "}
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Services/anniversaries.png" alt="Anniversaries" />
+          <Image  src="/images/Services/anniversaries.png" alt="Anniversaries" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Services/corporate.png" alt="Corporate Events" />
+          <Image  src="/images/Services/corporate.png" alt="Corporate Events" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Services/birthday.png" alt="Birthday" />
+          <Image  src="/images/Services/birthday.png" alt="Birthday" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Services/concerts.png" alt="Live Concerts" />
+          <Image  src="/images/Services/concerts.png" alt="Live Concerts" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Services/fashion.png" alt="Fashion Shows" />
+          <Image  src="/images/Services/fashion.png" alt="Fashion Shows" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Services/festive.png" alt="Festive Events" />
+          <Image  src="/images/Services/festive.png" alt="Festive Events" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Services/manymore.png" alt="manymore" />
+          <Image  src="/images/Services/manymore.png" alt="manymore" />
         </SwiperSlide>
       </Swiper>
     </div>

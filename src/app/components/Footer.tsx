@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { LuPhoneCall } from "react-icons/lu";
 import { PiYoutubeLogoLight } from "react-icons/pi";
@@ -14,7 +15,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
               <div className="text-white flex justify-center items-center">
-                <img
+                <Image 
                   src="/images/logo.png"
                   className="w-20"
                   alt="mmkentertainment-logo"
