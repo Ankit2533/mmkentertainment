@@ -19,6 +19,8 @@ const Footer = () => {
                   src="/images/logo.png"
                   className="w-20"
                   alt="mmkentertainment-logo"
+                  width={100}
+                  height={100}
                 />
               </div>
               <ul className="flex flex-col gap-6 mt-8">

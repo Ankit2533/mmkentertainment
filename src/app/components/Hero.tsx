@@ -10,11 +10,15 @@ const Hero = () => {
             className=" left-0 w-full h-full"
             alt="hero1"
             src="/images/Events/1.jpg"
+            width={100}
+            height={100}
           />
           <Image 
             className="  w-50% h-50%"
             alt="hero2"
             src="/images/Events/2.jpg"
+            width={100}
+            height={100}
           />
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">

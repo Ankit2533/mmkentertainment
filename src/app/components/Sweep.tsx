@@ -38,31 +38,31 @@ const Sweep = () => {
         className="mySweep"
       >
         <SwiperSlide>
-          <Image  src="/images/Services/wedding.png" alt="Wedding" />
+          <Image  src="/images/Services/wedding.png" alt="Wedding"width={100} height={100} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image  src="/images/Services/social.png" alt="Social Get-Together" />{" "}
+          <Image  src="/images/Services/social.png" alt="Social Get-Together"width={100} height={100} />{" "}
         </SwiperSlide>
         <SwiperSlide>
-          <Image  src="/images/Services/anniversaries.png" alt="Anniversaries" />
+          <Image  src="/images/Services/anniversaries.png" alt="Anniversaries"width={100} height={100} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image  src="/images/Services/corporate.png" alt="Corporate Events" />
+          <Image  src="/images/Services/corporate.png" alt="Corporate Events"width={100} height={100} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image  src="/images/Services/birthday.png" alt="Birthday" />
+          <Image  src="/images/Services/birthday.png" alt="Birthday"width={100} height={100} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image  src="/images/Services/concerts.png" alt="Live Concerts" />
+          <Image  src="/images/Services/concerts.png" alt="Live Concerts"width={100} height={100} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image  src="/images/Services/fashion.png" alt="Fashion Shows" />
+          <Image  src="/images/Services/fashion.png" alt="Fashion Shows"width={100} height={100} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image  src="/images/Services/festive.png" alt="Festive Events" />
+          <Image  src="/images/Services/festive.png" alt="Festive Events"width={100} height={100} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image  src="/images/Services/manymore.png" alt="manymore" />
+          <Image  src="/images/Services/manymore.png" alt="manymore"width={100} height={100} />
         </SwiperSlide>
       </Swiper>
     </div>

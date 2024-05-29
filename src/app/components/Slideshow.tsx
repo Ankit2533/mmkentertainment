@@ -29,15 +29,15 @@ const slideshow = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><Image  src="./images/Events/1.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><Image  src="./images/Events/2.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><Image  src="./images/Events/3.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><Image  src="./images/Events/4.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><Image  src="./images/Events/5.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><Image  src="./images/Events/6.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><Image  src="./images/Events/7.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><Image  src="./images/Events/8.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><Image  src="./images/Events/9.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><Image  src="/images/Events/1.jpg" alt="" width={100} height={100}/></SwiperSlide>
+        <SwiperSlide><Image  src="/images/Events/2.jpg" alt="" width={100} height={100}/></SwiperSlide>
+        <SwiperSlide><Image  src="/images/Events/3.jpg" alt="" width={100} height={100}/></SwiperSlide>
+        <SwiperSlide><Image  src="/images/Events/4.jpg" alt="" width={100} height={100}/></SwiperSlide>
+        <SwiperSlide><Image  src="/images/Events/5.jpg" alt="" width={100} height={100}/></SwiperSlide>
+        <SwiperSlide><Image  src="/images/Events/6.jpg" alt="" width={100} height={100}/></SwiperSlide>
+        <SwiperSlide><Image  src="/images/Events/7.jpg" alt="" width={100} height={100}/></SwiperSlide>
+        <SwiperSlide><Image  src="/images/Events/8.jpg" alt="" width={100} height={100}/></SwiperSlide>
+        <SwiperSlide><Image  src="/images/Events/9.jpg" alt="" width={100} height={100}/></SwiperSlide>
       </Swiper>
     </>
   )

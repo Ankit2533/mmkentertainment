@@ -67,6 +67,8 @@ const Services = () => {
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={item.imgSrc}
+                  width={100} 
+                  height={100}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">

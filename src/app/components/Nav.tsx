@@ -22,7 +22,8 @@ export const Navbar = () => {
     <>
       <nav className="flex items-center flex-wrap bg-[#091933] p-1 pl-15 pr-15 ">
         <Link href="/" className="inline-flex items-center p-1 mr-4">
-          <Image  src="./images/logo.png" alt="" className="w-20" />
+          <Image  src="/images/logo.png" alt="" className="w-20"  width={100}
+            height={100}/>
           <span className="text-xl text-white font-bold tracking-wide">
             MMKEntertainment
           </span>
