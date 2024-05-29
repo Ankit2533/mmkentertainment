@@ -3,25 +3,39 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="text-gray-600 body-font">
-      <div className="container mx-auto flex px-5 py-10 items-center justify-center flex-col">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-            About Us
-          </h1>
-          <p className="font-bold">Discover the Strength of Our Strategic Methods</p>
-        <img
-          className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
-          alt="hero"
-          src="https://dummyimage.com/720x600"
-        />
-        <div className="text-center lg:w-2/3 w-full">
-          <p className="mb-8 leading-relaxed text-justify">
-          Mishal & Megha Kalyani, fuelled by a passion for travel and tradition, have steered MMK Entertainment to thrive in the dynamic landscape of the event and wedding industry. With a proven track record, we have skilfully orchestrated a diverse range of events, including corporate conferences, product launches, weddings and cultural extravaganzas. Our proficiency extends beyond event conceptualization and design; we excel in the seamless management of logistics, ensuring flawless execution. We take pride in transforming challenges into opportunities, offering innovative solutions, and consistently surpassing client expectations.
+      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 relative">
+          <img
+            className=" left-0 w-full h-full"
+            alt="hero1"
+            src="/images/Events/1.jpg"
+          />
+          <img
+            className="  w-50% h-50%"
+            alt="hero2"
+            src="/images/Events/2.jpg"
+          />
+        </div>
+        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <h1>About MMK Entertainment</h1>
+          <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+            Introducing the Next Generation of Wedding Planners
+          </h2>
+          <p className="mb-8 leading-relaxed text-justify pr-10">
+            Our mission is to craft exceptional celebrations that bring loved
+            ones together, honouring tradition while embracing innovation. We
+            focus on every detail to surpass expectations and ensure your
+            wedding is a memorable and extraordinary event. At MMK
+            Entertainment, we work behind the scenes, tirelessly ensuring that
+            everything goes off without a hitch. We meticulously manage every
+            detail, regardless of size. On your special day, everything will be
+            perfect—from your hair to the flowers to the chairs. Let us start
+            crafting your story, the gateway to the rest of your life.
           </p>
           <div className="flex justify-center">
-            <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            <button className="inline-flex text-white bg-[#091933] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
               Know More
             </button>
-            
           </div>
         </div>
       </div>
@@ -32,6 +46,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-
-// Mishal & Megha Kalyani, fuelled by a passion for travel and tradition, have steered MMK Entertainment to thrive in the dynamic landscape of the event and wedding industry. With a proven track record, we have skilfully orchestrated a diverse range of events, including corporate conferences, product launches, weddings and cultural extravaganzas. Our proficiency extends beyond event conceptualization and design; we excel in the seamless management of logistics, ensuring flawless execution. We take pride in transforming challenges into opportunities, offering innovative solutions, and consistently surpassing client expectations.
