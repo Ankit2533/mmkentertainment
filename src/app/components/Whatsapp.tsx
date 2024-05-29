@@ -1,5 +1,5 @@
 import React from "react";
-import "D:/Project/mmkentertainment/styles/style.css"; // Import the module CSS file
+import "/styles/style.css"; // Import the module CSS file
 
 const Whatsapp = () => {
   return (
