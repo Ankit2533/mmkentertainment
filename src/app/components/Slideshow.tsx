@@ -13,32 +13,31 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const slideshow = () => {
   return (
-      <Swiper
-        slidesPerView={1}
-        spaceBetween={30}
-        loop={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={false}
-        modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
-      >
-        <SwiperSlide><Image  src="/images/Events/1.jpg" alt="" width={1000} height={1000} /></SwiperSlide>
-        <SwiperSlide><Image  src="/images/Events/2.jpg" alt="" width={1000} height={1000}/></SwiperSlide>
-        <SwiperSlide><Image  src="/images/Events/3.jpg" alt="" width={1000} height={1000}/></SwiperSlide>
-        <SwiperSlide><Image  src="/images/Events/4.jpg" alt="" width={1000} height={1000}/></SwiperSlide>
-        <SwiperSlide><Image  src="/images/Events/5.jpg" alt="" width={1000} height={1000}/></SwiperSlide>
-        <SwiperSlide><Image  src="/images/Events/6.jpg" alt="" width={1000} height={1000}/></SwiperSlide>
-        <SwiperSlide><Image  src="/images/Events/7.jpg" alt="" width={1000} height={1000}/></SwiperSlide>
-        <SwiperSlide><Image  src="/images/Events/8.jpg" alt="" width={1000} height={1000}/></SwiperSlide>
-        <SwiperSlide><Image  src="/images/Events/9.jpg" alt="" width={1000} height={1000}/></SwiperSlide>
-      </Swiper>
-
+    <Swiper
+      slidesPerView={1}
+      spaceBetween={30}
+      loop={true}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+      pagination={{
+        clickable: true,
+      }}
+      navigation={false}
+      modules={[Autoplay, Pagination, Navigation]}
+      className="mySwiper"
+    >
+      <SwiperSlide><Image src="/images/Events/1.jpg" alt="" width={1000} height={1000} layout="responsive" /></SwiperSlide>
+      <SwiperSlide><Image src="/images/Events/2.jpg" alt="" width={1000} height={1000} layout="responsive" /></SwiperSlide>
+      <SwiperSlide><Image src="/images/Events/3.jpg" alt="" width={1000} height={1000} layout="responsive" /></SwiperSlide>
+      <SwiperSlide><Image src="/images/Events/4.jpg" alt="" width={1000} height={1000} layout="responsive" /></SwiperSlide>
+      <SwiperSlide><Image src="/images/Events/5.jpg" alt="" width={1000} height={1000} layout="responsive" /></SwiperSlide>
+      <SwiperSlide><Image src="/images/Events/6.jpg" alt="" width={1000} height={1000} layout="responsive" /></SwiperSlide>
+      <SwiperSlide><Image src="/images/Events/7.jpg" alt="" width={1000} height={1000} layout="responsive" /></SwiperSlide>
+      <SwiperSlide><Image src="/images/Events/8.jpg" alt="" width={1000} height={1000} layout="responsive" /></SwiperSlide>
+      <SwiperSlide><Image src="/images/Events/9.jpg" alt="" width={1000} height={1000} layout="responsive" /></SwiperSlide>
+    </Swiper>
   )
 }
 
