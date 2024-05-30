@@ -5,7 +5,7 @@ import Slideshow  from "./components/Slideshow"
 import Sweep from "./components/Sweep";
 import Testimonials from "./components/Testimonials";
 import Whatsapp from "./components/Whatsapp";
-import Hero from "./components/Hero";
+import Aboutus from "./components/Aboutus";
 import Services from "./components/Services";
 
 export default function Home() {
@@ -14,8 +14,10 @@ export default function Home() {
       <Whatsapp/>
       <Navbar />
       <Slideshow/>
-      <Hero/>
+      <Aboutus/>
+      <br />
       <Services/>
+      <br />
       {/* <Sweep/> */}
       <Testimonials/>
       <Footer />

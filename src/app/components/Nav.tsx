@@ -21,7 +21,7 @@ export const Navbar = () => {
   return (
     <>
       <nav className="flex items-center flex-wrap bg-[#091933] p-1 pl-15 pr-15 ">
-        <Link href="/" className="inline-flex items-center p-1 mr-4">
+        <Link href="/" className="inline-flex items-center p-2 mr-4">
           <Image  src="/images/logo.png" alt="" className="w-20"  width={100}
             height={100}/>
           <span className="text-xl text-white font-bold tracking-wide">
@@ -29,7 +29,7 @@ export const Navbar = () => {
           </span>
         </Link>
         <button
-          className="inline-flex p-3 hover:bg-green-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none"
+          className="inline-flex p-3 hover:bg-[#F7CF4F] rounded lg:hidden text-white ml-auto hover:text-white outline-none"
           onClick={handleClick}
         >
           {active ? <FiX size={25} /> : <FiMenu size={25} />}
@@ -48,6 +48,9 @@ export const Navbar = () => {
             </Link>
             <Link href="/about" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center  hover:bg-[#F7CF4F] hover:text-[#353534]">
             Services
+            </Link>
+            <Link href="/contact" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center  hover:bg-[#F7CF4F] hover:text-[#353534]">
+              Photo Gallery
             </Link>
             <Link href="/contact" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center  hover:bg-[#F7CF4F] hover:text-[#353534]">
               Contact Us
