@@ -15,7 +15,8 @@ export default function Home() {
       <Navbar />
       <Slideshow/>
       <Hero/>
-      <Sweep/>
+      <Services/>
+      {/* <Sweep/> */}
       <Testimonials/>
       <Footer />
     </main>

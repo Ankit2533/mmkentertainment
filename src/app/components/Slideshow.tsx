@@ -29,7 +29,7 @@ const slideshow = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><Image  src="/images/Events/1.jpg" alt="" width={100} height={100}/></SwiperSlide>
+        <SwiperSlide><Image  src="/images/Events/1.jpg" alt="" width={100} height={100} /></SwiperSlide>
         <SwiperSlide><Image  src="/images/Events/2.jpg" alt="" width={100} height={100}/></SwiperSlide>
         <SwiperSlide><Image  src="/images/Events/3.jpg" alt="" width={100} height={100}/></SwiperSlide>
         <SwiperSlide><Image  src="/images/Events/4.jpg" alt="" width={100} height={100}/></SwiperSlide>
