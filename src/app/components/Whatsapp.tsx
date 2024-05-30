@@ -1,7 +1,7 @@
 import React from "react";
 import "/styles/style.css"; // Import the module CSS file
 
-import Image from "next/image";
+import Image from "next/legacy/image";
 const Whatsapp = () => {
   return (
     <div className="Whatsapp"> {/* Use the CSS module class */}

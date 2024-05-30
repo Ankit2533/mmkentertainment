@@ -1,7 +1,7 @@
 "use client";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";

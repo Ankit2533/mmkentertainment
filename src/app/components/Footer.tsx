@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { LuPhoneCall } from "react-icons/lu";
 import { PiYoutubeLogoLight } from "react-icons/pi";
