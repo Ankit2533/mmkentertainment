@@ -10,12 +10,15 @@ const Services = () => {
             Services
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            We believe anything is possible, so think big or think wide, we will
-            exceed your expectations in more ways than you can imagine and
-            creating everlasting experiences.
+            We believe anything is possible, so think big or think wide, we will exceed your expectations in more ways than you can imagine and creating everlasting experiences.
             <br />
             Looking forward to lifetime association.
           </p>
+          <div className="flex justify-center mt-8">
+            <button className="inline-flex items-center justify-center text-white bg-[#091933] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-lg text-lg">
+              Know More
+            </button>
+          </div>
         </div>
         <div className="flex flex-wrap -m-4">
           {[
