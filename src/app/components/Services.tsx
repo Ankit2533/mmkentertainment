@@ -64,9 +64,9 @@ const Services = () => {
                 <div className="flex-shrink-0 relative h-48 overflow-hidden">
                   <Image 
                     alt="gallery"
-                    className="absolute inset-0 w-full h-full object-cover object-center"
                     src={item.imgSrc}
-                    layout="fill"
+                    fill
+                    style={{ objectFit: "cover", objectPosition: "center" }}
                   />
                   <div className="absolute inset-0 bg-gray-900 bg-opacity-50 opacity-0 hover:opacity-100 flex justify-center items-center transition-opacity duration-300">
                     <div className="text-center px-4 py-2 bg-white bg-opacity-75">
