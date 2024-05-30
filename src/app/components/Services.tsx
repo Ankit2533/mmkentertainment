@@ -9,13 +9,14 @@ const Services = () => {
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4">
             Services
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            <div className="pb-3">
-            We believe anything is possible, so think big or think wide, we will exceed your expectations in more ways than you can imagine and creating everlasting experiences.
-            </div>
-            <br />
-            Looking forward to lifetime association.
-          </p>
+          <div className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            <p className="pb-3">
+              We believe anything is possible, so think big or think wide, we
+              will exceed your expectations in more ways than you can imagine
+              and creating everlasting experiences.
+            </p>
+            <p>Looking forward to a lifetime association.</p>
+          </div>
           <div className="flex justify-center mt-8">
             <button className="inline-flex items-center justify-center text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-lg text-lg">
               Know More
@@ -64,7 +65,7 @@ const Services = () => {
             <div key={index} className="p-4 md:w-1/3 sm:w-1/2 w-full">
               <div className="h-full flex flex-col relative">
                 <div className="flex-shrink-0 relative h-48 overflow-hidden">
-                  <Image 
+                  <Image
                     alt="gallery"
                     src={item.imgSrc}
                     fill
@@ -75,7 +76,9 @@ const Services = () => {
                       <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                         {item.title}
                       </h1>
-                      <p className="leading-relaxed text-sm">{item.description}</p>
+                      <p className="leading-relaxed text-sm">
+                        {item.description}
+                      </p>
                     </div>
                   </div>
                 </div>

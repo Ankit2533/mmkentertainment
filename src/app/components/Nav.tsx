@@ -43,13 +43,13 @@ export const Navbar = () => {
             <Link href="/" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-[#F7CF4F] hover:text-[#353534]">
               Home
             </Link>
-            <Link href="/services" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center  hover:bg-[#F7CF4F] hover:text-[#353534]">
+            <Link href="/aboutus" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center  hover:bg-[#F7CF4F] hover:text-[#353534]">
             About Us
             </Link>
-            <Link href="/about" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center  hover:bg-[#F7CF4F] hover:text-[#353534]">
+            <Link href="/services" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center  hover:bg-[#F7CF4F] hover:text-[#353534]">
             Services
             </Link>
-            <Link href="/contact" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center  hover:bg-[#F7CF4F] hover:text-[#353534]">
+            <Link href="/gallery" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center  hover:bg-[#F7CF4F] hover:text-[#353534]">
               Photo Gallery
             </Link>
             <Link href="/contact" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center  hover:bg-[#F7CF4F] hover:text-[#353534]">

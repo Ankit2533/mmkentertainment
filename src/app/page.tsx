@@ -11,16 +11,10 @@ import Services from "./components/Services";
 export default function Home() {
   return (
     <main>
-      <Whatsapp/>
-      <Navbar />
       <Slideshow/>
       <Aboutus/>
-      <br />
       <Services/>
-      <br />
-      {/* <Sweep/> */}
       <Testimonials/>
-      <Footer />
     </main>
   );
 }
