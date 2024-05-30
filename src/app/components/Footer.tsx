@@ -39,7 +39,7 @@ const Footer = () => {
                   <div className="flex items-center">
                     <LuPhoneCall className="text-white w-6 h-6 mr-2" />
                     <a href="tel:+917666655513" className="text-white">
-                      +91 7666655513 / +91 9322404922
+                       +91 9322404922 / +91 7666655513
                     </a>
                   </div>
                 </li>
