@@ -10,7 +10,7 @@ const AboutUs = () => {
         <div className={styles.imageContainer}>
           <div className={styles.imageWrapper}>
             <Image
-              src="/images/Events/1.jpg" // path to your first image in public folder
+              src="/about/wedding2.jpg" // path to your first image in public folder
               alt="Wedding Celebration"
               layout="fill"
               objectFit="cover"
@@ -19,7 +19,7 @@ const AboutUs = () => {
           </div>
           <div className={styles.overlapImageWrapper}>
             <Image
-              src="/images/Events/2.jpg" // path to your second image in public folder
+              src="/about/wedding1.jpg" // path to your second image in public folder
               alt="Wedding Couple"
               layout="fill"
               objectFit="cover"
