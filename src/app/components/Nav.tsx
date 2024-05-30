@@ -43,7 +43,7 @@ export const Navbar = () => {
             <Link href="/" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-[#F7CF4F] hover:text-[#353534]">
               Home
             </Link>
-            <Link href="/aboutus" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center  hover:bg-[#F7CF4F] hover:text-[#353534]">
+            <Link href="/about" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center  hover:bg-[#F7CF4F] hover:text-[#353534]">
             About Us
             </Link>
             <Link href="/services" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center  hover:bg-[#F7CF4F] hover:text-[#353534]">

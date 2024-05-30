@@ -18,7 +18,7 @@ const Services = () => {
             <p>Looking forward to a lifetime association.</p>
           </div>
           <div className="flex justify-center mt-8">
-            <button className="inline-flex items-center justify-center text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-lg text-lg">
+            <button className="inline-flex items-center justify-center text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-[#F7CF4F] rounded-lg text-lg">
               Know More
             </button>
           </div>
