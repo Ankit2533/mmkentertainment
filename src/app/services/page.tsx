@@ -1,5 +1,6 @@
 import React from 'react'
 import ServicesDetails from '../components/ServicesDetails'
+import "../globals.css";
 
 const page = () => {
   return (
