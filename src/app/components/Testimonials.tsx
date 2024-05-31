@@ -1,12 +1,13 @@
 import React from "react";
 import Image from "next/legacy/image";
+import '/styles/style.css'; 
 
 const Testimonials: React.FC = () => {
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 pb-24 pt-5 mx-auto">
-        <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center">
-          Testimonials
+        <h1 className=" text-9xl font-medium title-font text-gray-900 mb-12 text-center golden-text">
+        What They Say!
         </h1>
         <div className="flex flex-wrap -m-4">
           <div className="p-4 md:w-1/2 w-full">
