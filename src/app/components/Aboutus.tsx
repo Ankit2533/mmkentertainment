@@ -1,11 +1,11 @@
-// src/app/components/AboutUs.tsx
 import Image from "next/legacy/image";
 import styles from '/styles/about.module.css';
+import '/styles/style.css'; // Import the CSS file
 
 const AboutUs = () => {
   return (
-    <div className={styles.container}>
-      <h2 className={styles.heading}>About</h2>
+    <div className={`${styles.container} about-container`}>
+      <h2 className={`${styles.heading} about-heading`}>About Us</h2>
       <div className={styles.content}>
         <div className={styles.imageContainer}>
           <div className={styles.imageWrapper}>

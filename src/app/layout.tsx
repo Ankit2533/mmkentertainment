@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Footer from "./components/Footer";
+import Foot from "./components/Foot";
 import { Navbar } from "./components/Nav";
 import Whatsapp from "./components/Whatsapp";
 
@@ -26,7 +26,7 @@ export default function RootLayout({
         <Whatsapp />
         <Navbar />
         {children}
-        <Footer />
+        <Foot />
       </body>
     </html>
   );
