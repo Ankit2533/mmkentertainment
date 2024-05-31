@@ -2,12 +2,13 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from "next/image";
+import styles from '/styles/style.module.css';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import '/styles/style.css';
+//import '/styles/style.css';
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
@@ -26,7 +27,7 @@ const slideshow = () => {
       }}
       navigation={false}
       modules={[Autoplay, Pagination, Navigation]}
-      className="mySwiper"
+      className={styles.mySwiper}
     >
       <SwiperSlide><Image src="/images/Events/1.jpg" alt="" width={1000} height={1000} layout="responsive" /></SwiperSlide>
       <SwiperSlide><Image src="/images/Events/2.jpg" alt="" width={1000} height={1000} layout="responsive" /></SwiperSlide>
