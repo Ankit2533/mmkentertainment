@@ -61,13 +61,13 @@ const Section = () => {
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
-        <div className="w-full h-48 bg-gray-200 flex items-center justify-center mb-20">
+        <div className="flex items-center justify-center mb-20">
           <h1 className="text-4xl font-bold text-gray-900">SERVICES</h1>
         </div>
         <div className="flex flex-wrap -m-4">
           {content.map((item, index) => (
-            <div key={index} className="lg:w-1/3 md:w-1/2 w-full p-4">
-              <div className="bg-gray-100 p-6 rounded-lg flex flex-col items-center text-center h-full">
+            <div key={index} className="p-4 sm:w-1/2 lg:w-1/3 flex">
+              <div className="bg-gray-100 p-6 rounded-lg flex flex-col items-center text-center h-full w-full">
                 <div className="relative h-40 w-full overflow-hidden rounded mb-6">
                   <Image
                     src={imagePaths[index]}
