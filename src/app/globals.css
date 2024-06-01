@@ -2,7 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+/* styles.css or global.css */
+.bg-navbar {
+    background: 
+      url('/GOLDEN.jpeg') repeat, 
+      #091933; /* Fallback color */
+    background-size: 360px 360px;
+  }
+  
+  .bg-gold {
+    background: 
+      url('/backgold.jpg') repeat, 
+      #091933; /* Fallback color */
+    background-size: 360px 360px;
+  }
