@@ -108,11 +108,11 @@ const Footer = () => {
       </div>
 
       {/* Copyright */}
-      <div className="w-full text-center text-gray-400 mt-4">
+      <div className="w-full text-center text-gray-700 mt-4">
         <p>&copy; {currentYear} MMKEntertainment. All Rights Reserved.</p>
         <p>
           Designed and Developed by{" "}
-          <a href="http://" className="text-blue-300">
+          <a href="http://" className="text-gray-500">
             Developer
           </a>
         </p>
