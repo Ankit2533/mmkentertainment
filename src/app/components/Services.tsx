@@ -68,8 +68,8 @@ const Services = () => {
                     style={{ objectFit: "cover", objectPosition: "center" }}
                     className="rounded-t-lg"
                   />
-                  <div className="absolute inset-0 bg-gray-900 bg-opacity-50 opacity-0 hover:opacity-100 flex justify-center items-center transition-opacity duration-300 rounded-t-lg">
-                    <div className="text-center px-4 py-2 bg-white bg-opacity-75 rounded-lg">
+                  <div className="absolute inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center transition-opacity duration-300 rounded-t-lg">
+                    <div className="text-center px-4 py-2 bg-white bg-opacity-75">
                       <h1 className="title-font text-lg font-bold text-gray-900 mb-3">
                         {item.title}
                       </h1>
