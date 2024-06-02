@@ -111,7 +111,7 @@
 
   .overlapImageWrapper {
     top: 5%; /* Adjust as needed to position vertically */
-    right: -2%; /* Adjust as needed to position horizontally */
+    right: 1%; /* Adjust as needed to position horizontally */
     width: 40%; /* Adjust as needed to control size */
     padding-bottom: 40%; /* Maintain aspect ratio */
   }
