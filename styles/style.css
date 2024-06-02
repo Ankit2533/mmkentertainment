@@ -101,3 +101,16 @@
   color: #F7CF4F;
 }
 
+/* /styles/style.css */
+.zoom-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.zoom-container img {
+  transition: transform 0.5s ease;
+}
+
+.zoom-container:hover img {
+  transform: scale(1.2);
+}

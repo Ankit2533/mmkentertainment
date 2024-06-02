@@ -54,7 +54,7 @@ const Footer = () => {
         </nav>
 
         {/* Third Column: Contact & Social Media */}
-        <div className="flex flex-col md:items-center md:justify-center">
+        <div className="flex flex-col items-center md:justify-center">
           <div className="mb-4">
             <p className="text-white font-bold">Connect With Us</p>
           </div>
@@ -93,7 +93,7 @@ const Footer = () => {
       {/* Bottom Section: Hashtag */}
       <div className="w-full text-center relative">
         <p
-          className="font-bold italic text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl relative z-10"
+          className="font-bold italic text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl relative z-10"
           style={{
             backgroundImage: `url('/images/GoldBackground.jpg')`, // Using the src attribute directly
             backgroundSize: 'auto',
