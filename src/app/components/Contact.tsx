@@ -2,6 +2,7 @@
 import React from "react";
 import Image from 'next/image';
 import { useForm, ValidationError } from "@formspree/react";
+import { FaInstagram, FaFacebook, FaYoutube } from 'react-icons/fa';
 
 const WeddingForm = () => {
   const [state, handleSubmit] = useForm("xjvnqyae");
@@ -37,59 +38,59 @@ const WeddingForm = () => {
 
   return (
     <section className="text-gray-600 body-font relative">
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-            Wedding Inquiry Form
-          </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Please fill out the form below to inquire about our wedding
-            services.
+      <div className="container px-20 py-24 mx-auto flex">
+        <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+          <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Address</h2>
+          <p className="leading-relaxed mb-5 text-gray-600 capitalize">
+            Rock Garden, Off Link Road Kandarpada Near Lime And Spice Restaurant Dahisar West, Mumbai, Maharashtra 400068
           </p>
+          <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Contact</h2>
+          <p className="leading-relaxed mb-5 text-gray-600">
+            <a href="tel:+919322404922" className="text-gray-600 hover:text-yellow-500">+91 9322404922</a> / <a href="tel:+917666655513" className="text-gray-600 hover:text-yellow-500">+91 7666655513</a>
+          </p>
+          <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Email</h2>
+          <p className="leading-relaxed mb-5 text-gray-600">
+            <a href="mailto:contact@mmkentertainment.com" className="text-gray-600 hover:text-yellow-500">contact@mmkentertainment.com</a>
+          </p>
+          <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Social Media</h2>
+          <div className="flex space-x-3">
+            <a href="https://www.instagram.com/mmkentertainment" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-500">
+              <FaInstagram size={30} />
+            </a>
+            <a href="https://www.facebook.com/mishalkalyani" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-500">
+              <FaFacebook size={30} />
+            </a>
+            <a href="https://www.youtube.com/@mmkentertainment5334" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-500">
+              <FaYoutube size={30} />
+            </a>
+          </div>
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
-          <form onSubmit={handleSubmit}>
+          <div className="w-full mb-12">
+            <h1 className="text-2xl font-bold title-font mb-4 p text-gray-900">
+              Get In Touch
+            </h1>
+          </div>
+          <form onSubmit={handleSubmit} className="w-full max-w-lg">
             <div className="flex flex-wrap -m-2">
-              <div className="p-2 w-1/2">
+              <div className="p-2 w-full">
                 <div className="relative">
                   <label
-                    htmlFor="brideName"
+                    htmlFor="name"
                     className="leading-7 text-sm text-gray-600"
                   >
-                    Bride’s Name*
+                    Name*
                   </label>
                   <input
                     type="text"
-                    id="brideName"
-                    name="brideName"
+                    id="name"
+                    name="name"
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-yellow-300 focus:border-[#F7CF4F] focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     required
                   />
                   <ValidationError
-                    prefix="BrideName"
-                    field="brideName"
-                    errors={state.errors}
-                  />
-                </div>
-              </div>
-              <div className="p-2 w-1/2">
-                <div className="relative">
-                  <label
-                    htmlFor="groomName"
-                    className="leading-7 text-sm text-gray-600"
-                  >
-                    Groom’s Name*
-                  </label>
-                  <input
-                    type="text"
-                    id="groomName"
-                    name="groomName"
-                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-yellow-300 focus:border-[#F7CF4F] focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                    required
-                  />
-                  <ValidationError
-                    prefix="GroomName"
-                    field="groomName"
+                    prefix="Name"
+                    field="name"
                     errors={state.errors}
                   />
                 </div>
@@ -136,7 +137,6 @@ const WeddingForm = () => {
                       );
                     }}
                   />
-
                   <ValidationError
                     prefix="PhoneNumber"
                     field="phoneNumber"
@@ -147,64 +147,21 @@ const WeddingForm = () => {
               <div className="p-2 w-full">
                 <div className="relative">
                   <label
-                    htmlFor="weddingDates"
+                    htmlFor="eventDate"
                     className="leading-7 text-sm text-gray-600"
                   >
-                    Wedding Dates*
+                    Event Date*
                   </label>
                   <input
-                    type="text"
-                    id="weddingDates"
-                    name="weddingDates"
+                    type="date"
+                    id="eventDate"
+                    name="eventDate"
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-yellow-300 focus:border-[#F7CF4F] focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                    placeholder="dd-mm-yyyy"
                     required
                   />
                   <ValidationError
-                    prefix="WeddingDates"
-                    field="weddingDates"
-                    errors={state.errors}
-                  />
-                </div>
-              </div>
-              <div className="p-2 w-1/2">
-                <div className="relative">
-                  <label
-                    htmlFor="weddingDestination"
-                    className="leading-7 text-sm text-gray-600"
-                  >
-                    Wedding Destination
-                  </label>
-                  <input
-                    type="text"
-                    id="weddingDestination"
-                    name="weddingDestination"
-                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-yellow-300 focus:border-[#F7CF4F] focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                  />
-                  <ValidationError
-                    prefix="WeddingDestination"
-                    field="weddingDestination"
-                    errors={state.errors}
-                  />
-                </div>
-              </div>
-              <div className="p-2 w-1/2">
-                <div className="relative">
-                  <label
-                    htmlFor="weddingVenue"
-                    className="leading-7 text-sm text-gray-600"
-                  >
-                    Wedding Venue
-                  </label>
-                  <input
-                    type="text"
-                    id="weddingVenue"
-                    name="weddingVenue"
-                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-yellow-300 focus:border-[#F7CF4F] focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                  />
-                  <ValidationError
-                    prefix="WeddingVenue"
-                    field="weddingVenue"
+                    prefix="EventDate"
+                    field="eventDate"
                     errors={state.errors}
                   />
                 </div>
@@ -221,6 +178,7 @@ const WeddingForm = () => {
                     id="about"
                     name="about"
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-yellow-300 focus:border-[#F7CF4F] focus:bg-white focus:ring-2 focus:ring-yellow-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                    required
                   />
                   <ValidationError
                     prefix="About"
@@ -232,8 +190,7 @@ const WeddingForm = () => {
               <div className="p-2 w-full">
                 <button
                   type="submit"
-                  className="flex mx-auto text-white bg-[#F7CF4F] border-1 py-2 px-8 focus:outline-none hover:bg-yellow-700
-                   rounded text-lg"
+                  className="flex mx-auto text-white bg-[#F7CF4F] border-0 py-2 px-8 focus:outline-none hover:bg-yellow-700 rounded text-lg"
                   disabled={state.submitting}
                 >
                   Submit
