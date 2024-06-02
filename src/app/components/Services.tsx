@@ -7,7 +7,7 @@ const Services = () => {
     <section className="body-font bg-[#091933] text-white border-t-4 border-b-4 border-[#F7CF4F]">
       <div className="container px-5 pb-10 mx-auto pt-5">
         <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-medium title-font mb-4 golden-text">
+          <h1 className="text-6xl sm:text-7xl md:text-7xl lg:text-8xl xl:text-9xl font-medium title-font mb-4 golden-text">
             We Specialize In
           </h1>
           <div className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -60,7 +60,7 @@ const Services = () => {
           ].map((item, index) => (
             <div key={index} className="p-4 md:w-1/3 sm:w-1/2 w-full">
               <div className="h-full flex flex-col relative border-2 border-[#F7CF4F] rounded-lg">
-                <div className="flex-shrink-0 relative h-64 overflow-hidden rounded-t-lg zoom-container">
+                <div className="flex-shrink-0 relative h-64 overflow-hidden rounded-t-lg">
                   <Image
                     alt="gallery"
                     src={item.imgSrc}
