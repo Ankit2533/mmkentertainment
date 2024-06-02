@@ -35,32 +35,32 @@ const Services = () => {
             },
             {
               imgSrc: "/images/Events/3.jpg",
-              title: "Artist Curation and Management",
+              title: "Celebrity and Artist Management",
               description:
-                "Providing top-tier artists and comprehensive management to make your events stand out.",
+                "Providing top-tier celebrities and artists, along with comprehensive management to make your events stand out.",
             },
             {
               imgSrc: "/images/Events/4.jpg",
-              title: "Anniversary Celebrations",
+              title: "Personal Celebrations",
               description:
-                "Creating beautiful and memorable anniversary celebrations to mark your special milestones.",
+                "Creating beautiful and memorable celebrations for anniversaries, baby showers, birthday parties, and more.",
             },
             {
               imgSrc: "/images/Events/5.jpg",
-              title: "Baby Shower",
-              description:
-                "Designing charming and heartfelt baby showers to celebrate the joy of new beginnings.",
-            },
-            {
-              imgSrc: "/images/Events/6.jpg",
               title: "Corporate Events",
               description:
                 "Delivering professional and seamless corporate events to help your business shine.",
             },
+            {
+              imgSrc: "/images/Events/6.jpg",
+              title: "Gifts and Hampers",
+              description:
+                "Curating exquisite gifts and hampers for all occasions, adding a personal touch to your celebrations.",
+            },
           ].map((item, index) => (
             <div key={index} className="p-4 md:w-1/3 sm:w-1/2 w-full">
               <div className="h-full flex flex-col relative border-2 border-[#F7CF4F] rounded-lg">
-                <div className="flex-shrink-0 relative h-64 overflow-hidden rounded-t-lg">
+                <div className="image-container flex-shrink-0 relative h-64 overflow-hidden rounded-t-lg">
                   <Image
                     alt="gallery"
                     src={item.imgSrc}
