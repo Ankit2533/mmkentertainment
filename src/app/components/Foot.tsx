@@ -93,7 +93,7 @@ const Footer = () => {
       {/* Bottom Section: Hashtag */}
       <div className="w-full text-center relative">
         <p
-          className="font-bold italic text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl relative z-10"
+          className="font-bold italic text-1xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl relative z-10"
           style={{
             backgroundImage: `url('/images/GoldBackground.jpg')`, // Using the src attribute directly
             backgroundSize: 'auto',

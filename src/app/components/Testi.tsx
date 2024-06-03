@@ -52,7 +52,7 @@ const Testimonials: React.FC = () => {
           <SwiperSlide key={index}>
             <div className="flex flex-col items-center h-full pt-10 pb-10 p-4">
               <div className="w-full h-auto flex-shrink-0 flex justify-center">
-                <div className="relative" style={{ width: '100%', paddingBottom: '50%' }}>
+                <div className="relative responsive-padding">
                   <Image
                     src={testimonial.gif}
                     alt={`Testimonial ${index + 1}`}
@@ -73,6 +73,17 @@ const Testimonials: React.FC = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      <style jsx>{`
+        .responsive-padding {
+          width: 100%;
+          padding-bottom: 30%;
+        }
+        @media (max-width: 768px) {
+          .responsive-padding {
+            padding-bottom: 50%;
+          }
+        }
+      `}</style>
     </div>
   );
 };
