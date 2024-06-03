@@ -37,7 +37,7 @@ const Testimonials: React.FC = () => {
         backgroundAttachment: 'fixed'
       }}
     >
-      <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-medium title-font mb-4 text-center golden-text">
+      <h2 className="text-6xl sm:text-7xl md:text-7xl lg:text-8xl xl:text-9xl font-medium title-font mb-4 text-center golden-text">
         What They Say
       </h2>
       <Swiper
@@ -46,13 +46,13 @@ const Testimonials: React.FC = () => {
         slidesPerView={1}
         loop={true}
         autoplay={{ delay: 4490 }}
-        style={{ height: 'auto', background: 'transparent' }}
+        style={{ height: 'auto'}}
       >
         {testimonials.map((testimonial, index) => (
           <SwiperSlide key={index}>
             <div className="flex flex-col items-center h-full pt-10 pb-10 p-4">
               <div className="w-full h-auto flex-shrink-0 flex justify-center">
-                <div className="relative" style={{ width: '80%', paddingBottom: '35.25%' }}>
+                <div className="relative" style={{ width: '100%', paddingBottom: '50%' }}>
                   <Image
                     src={testimonial.gif}
                     alt={`Testimonial ${index + 1}`}
