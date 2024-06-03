@@ -29,7 +29,7 @@ const testimonials = [
 const Testimonials: React.FC = () => {
   return (
     <div 
-      className="w-full h-full p-6 bg-cover bg-center bg-no-repeat" 
+      className="w-full h-full p-10 bg-cover bg-center bg-no-repeat" 
       style={{ 
         backgroundImage: 'url(/background/testibackground.jpg)', 
         minHeight: '100vh', 

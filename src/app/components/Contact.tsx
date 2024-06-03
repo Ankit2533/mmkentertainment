@@ -3,6 +3,7 @@ import React from "react";
 import Image from 'next/image';
 import { useForm, ValidationError } from "@formspree/react";
 import { FaInstagram, FaFacebook, FaYoutube } from 'react-icons/fa';
+import '/styles/font.css'; 
 
 const WeddingForm = () => {
   const [state, handleSubmit] = useForm("xjvnqyae");
@@ -38,18 +39,23 @@ const WeddingForm = () => {
 
   return (
     <section className="text-gray-600 body-font relative">
-      <div className="container px-20 py-24 mx-auto flex">
-        <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+      <div className="w-full pt-5 flex justify-center items-center">
+            <h1 className="text-6xl sm:text-7xl md:text-7xl lg:text-8xl xl:text-9xl font-medium title-font mb-4 text-center golden-text">
+              Get In Touch
+            </h1>
+          </div>
+      <div className="container px-5 md:px-20 py-24 mx-auto flex flex-col lg:flex-row">
+        <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 lg:items-start items-center">
           <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Address</h2>
-          <p className="leading-relaxed mb-5 text-gray-600 capitalize">
+          <p className="leading-relaxed mb-5 text-gray-600 capitalize text-center lg:text-left">
             Rock Garden, Off Link Road Kandarpada Near Lime And Spice Restaurant Dahisar West, Mumbai, Maharashtra 400068
           </p>
           <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Contact</h2>
-          <p className="leading-relaxed mb-5 text-gray-600">
+          <p className="leading-relaxed mb-5 text-gray-600 text-center lg:text-left">
             <a href="tel:+919322404922" className="text-gray-600 hover:text-yellow-500">+91 9322404922</a> / <a href="tel:+917666655513" className="text-gray-600 hover:text-yellow-500">+91 7666655513</a>
           </p>
           <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Email</h2>
-          <p className="leading-relaxed mb-5 text-gray-600">
+          <p className="leading-relaxed mb-5 text-gray-600 text-center lg:text-left">
             <a href="mailto:contact@mmkentertainment.com" className="text-gray-600 hover:text-yellow-500">contact@mmkentertainment.com</a>
           </p>
           <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Social Media</h2>
@@ -65,12 +71,8 @@ const WeddingForm = () => {
             </a>
           </div>
         </div>
-        <div className="lg:w-1/2 md:w-2/3 mx-auto">
-          <div className="w-full mb-12">
-            <h1 className="text-2xl font-bold title-font mb-4 p text-gray-900">
-              Get In Touch
-            </h1>
-          </div>
+        <div className="lg:w-1/2 md:w-2/3 mx-auto flex flex-col items-center">
+          
           <form onSubmit={handleSubmit} className="w-full max-w-lg">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-full">
@@ -172,7 +174,7 @@ const WeddingForm = () => {
                     htmlFor="about"
                     className="leading-7 text-sm text-gray-600"
                   >
-                    Tell us about you two!
+                    Tell us about you the event
                   </label>
                   <textarea
                     id="about"
@@ -200,6 +202,16 @@ const WeddingForm = () => {
           </form>
         </div>
       </div>
+      <style jsx>{`
+        @media (max-width: 768px) {
+          .lg\\:items-start {
+            align-items: center !important;
+          }
+          .lg\\:text-left {
+            text-align: center !important;
+          }
+        }
+      `}</style>
     </section>
   );
 };

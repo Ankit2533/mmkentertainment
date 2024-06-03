@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import '/styles/style.css';  // Import the CSS file
+import '/styles/font.css';  // Import the CSS file
 
 const Services = () => {
   return (
