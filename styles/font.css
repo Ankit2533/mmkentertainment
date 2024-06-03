@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'ITC Edwardian Script';
+    src: url('/fonts/ITCEdwardianScript.ttf') format('truetype');
+  }
+  
+  .golden-text {
+    font-family: 'ITC Edwardian Script', cursive;
+    color: #F7CF4F;
+  }
+  
+  .about-heading {
+    font-family: 'ITC Edwardian Script', cursive;
+    color: #F7CF4F;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-image: url('/golden.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 5px solid #F7CF4F;
+  }

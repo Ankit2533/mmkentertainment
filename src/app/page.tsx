@@ -4,6 +4,7 @@ import Testimonials from "./components/Testimonials";
 import Aboutus from "./components/Aboutus";
 import Services from "./components/Services";
 import Video from './components/Video'
+import Test from './components/Testi'
 
 
 export default function Home() {
@@ -13,7 +14,9 @@ export default function Home() {
       <Aboutus/>
       {/* <Video/> */}
       <Services/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
+      
+      <Test />
     </main>
   );
 }
