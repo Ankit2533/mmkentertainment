@@ -13,6 +13,8 @@ const Section = () => {
     '/images/Events/7.jpg',
     '/images/Events/8.jpg',
     '/images/Events/9.jpg',
+    '/images/Events/10.jpg',
+    '/images/Events/10.jpg',
     '/images/Events/10.jpg'
   ];
 
@@ -20,6 +22,14 @@ const Section = () => {
     {
       title: "CONNECTING ON A DEEPER LEVEL",
       text: "With countless amazing venues and skilled professionals available globally, the choices can feel both thrilling and daunting. Our dedicated team recognizes the significance of these decisions and is here to alleviate the burden. We invest time to genuinely understand you, your vision, your distinctive style, and your guests' needs before making any commitments. From that point, we carefully plan every aspect of the process, offering personalized guidance and support throughout."
+    },
+    {
+      title: "HOSPITALITY & GUEST MANAGEMENT",
+      text: "We handle wedding invitation distribution and create custom itineraries for city or nearby attractions. We coordinate with the hotel for a smooth check-in, ensuring guests feel welcomed upon arrival. We help guests acclimate, clearly communicate the wedding itinerary for timely arrivals, and ensure they can fully enjoy each moment. We attend to every detail and cater to their needs throughout their stay to prevent any discomfort."
+    },
+    {
+      title: "VENDOR COORDINATION & MANAGEMENT",
+      text: "We handle all the coordination, ensuring seamless communication and planning with each vendor. From initial consultations to final execution, we manage every detail so you can enjoy a stress-free experience. Trust us to bring together the best talents to make your wedding truly unforgettable. Photographers, Videographers, Choreographers, Stylists, and Makeup Artists: Our extensive network includes some of the most talented professionals in the industry. We meticulously select each vendor to ensure they meet our high standards of excellence and creativity."
     },
     {
       title: "BUDGET MANAGEMENT",
@@ -37,10 +47,7 @@ const Section = () => {
       title: "GIFTS & HAMPERS",
       text: "Great gifting ideas can become a key takeaway for your guests. It is a mark of the most landmark event in your life. A small token can talk a thousand words in a design which is befitting to the overall aesthetics of your wedding."
     },
-    {
-      title: "HOSPITALITY & GUEST MANAGEMENT",
-      text: "We handle wedding invitation distribution and create custom itineraries for city or nearby attractions. We coordinate with the hotel for a smooth check-in, ensuring guests feel welcomed upon arrival. We help guests acclimate, clearly communicate the wedding itinerary for timely arrivals, and ensure they can fully enjoy each moment. We attend to every detail and cater to their needs throughout their stay to prevent any discomfort."
-    },
+
     {
       title: "LOGISTICS COORDINATION & MANAGEMENT",
       text: "We handle all transportation logistics for your wedding with great care, making sure your guests travel to and from the venue smoothly. Our goal is to ensure their arrival and departure are easy and stress-free, leaving them with only happy memories of the event."
@@ -57,10 +64,7 @@ const Section = () => {
       title: "DÉCOR AGENCY COORDINATION & MANAGEMENT",
       text: "Embarking on a journey with you, we take pride in understanding your unique taste and vision for the wedding decor. With unwavering commitment, we manage and coordinate with the decor team, ensuring your dream visuals are achieved flawlessly on the big day."
     },
-    {
-      title: "VENDOR COORDINATION & MANAGEMENT",
-      text: "We handle all the coordination, ensuring seamless communication and planning with each vendor. From initial consultations to final execution, we manage every detail so you can enjoy a stress-free experience. Trust us to bring together the best talents to make your wedding truly unforgettable. Photographers, Videographers, Choreographers, Stylists, and Makeup Artists: Our extensive network includes some of the most talented professionals in the industry. We meticulously select each vendor to ensure they meet our high standards of excellence and creativity."
-    },
+
     {
       title: "VIDHI MANAGEMENT",
       text: "Looking into all requirements of any ritual or traditions that are involved with the occasion. Coordinating with the priest and your family to ensure all requirements are met. Ensuring all ritual and tradition requirements are meticulously addressed for your special occasion, coordinating closely with the priest and your family to meet every need."
