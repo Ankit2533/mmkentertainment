@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import '/styles/font.css'; 
 
 const Section = () => {
   const imagePaths = [
@@ -18,43 +19,51 @@ const Section = () => {
   const content = [
     {
       title: "CONNECTING ON A DEEPER LEVEL",
-      text: "Choosing the perfect venue and professionals can be thrilling yet daunting. Our dedicated team alleviates this burden by investing time to understand your vision, style, and guests' needs. We meticulously plan every aspect, offering personalized guidance and support throughout."
+      text: "With countless amazing venues and skilled professionals available globally, the choices can feel both thrilling and daunting. Our dedicated team recognizes the significance of these decisions and is here to alleviate the burden. We invest time to genuinely understand you, your vision, your distinctive style, and your guests' needs before making any commitments. From that point, we carefully plan every aspect of the process, offering personalized guidance and support throughout."
     },
     {
       title: "BUDGET MANAGEMENT",
-      text: "A dream wedding hinges on a well-managed budget. Based on the couple's and families' preferences and priorities, we allocate funds to each department and recommend vendors accordingly. We estimate the total spend at the outset and continually monitor it during the planning period."
+      text: "One of the most important aspects of bringing to life a dream wedding is the budget. Basis the preferences and priorities of the couple and their families, we allocate funds to each department and also recommend vendors within that bracket. While the estimated wedding spend is calculated at the beginning, we constantly monitor the same during the planning period."
     },
     {
       title: "HOTEL & VENUE MANAGEMENT",
-      text: "We excel in curating the ideal destination, whether international or national, to match your desired ambiance. Our expertise in destination and venue management ensures unforgettable experiences for you and your guests, bringing your vision to life."
+      text: "International & National - We specialize in curating the perfect destination to match your desired ambiance, creating unforgettable experiences for you and your guests. Our expertise in destination and venue management ensures your vision becomes reality."
     },
     {
-      title: "INVITATIONS & GIFTING",
-      text: "We assist in conceptualizing your wedding invitations, favors, and gifts—items you'll be excited to send out. We then find the perfect creators to bring these ideas to fruition, ensuring a personalized touch."
+      title: "INVITATIONS & STATIONRIES",
+      text: "We will help you conceptualize your wedding invites, favors, and gifts; things you would be excited to send out. We will then find the perfect people to create them for you."
+    },
+    {
+      title: "GIFTS & HAMPERS",
+      text: "Great gifting ideas can become a key takeaway for your guests. It is a mark of the most landmark event in your life. A small token can talk a thousand words in a design which is befitting to the overall aesthetics of your wedding."
     },
     {
       title: "HOSPITALITY & GUEST MANAGEMENT",
-      text: "From distributing invitations to crafting custom itineraries, we handle all aspects of guest hospitality. Coordinating with hotels for smooth check-ins and clearly communicating wedding schedules, we ensure your guests feel welcomed and can fully enjoy each moment of the event."
+      text: "We handle wedding invitation distribution and create custom itineraries for city or nearby attractions. We coordinate with the hotel for a smooth check-in, ensuring guests feel welcomed upon arrival. We help guests acclimate, clearly communicate the wedding itinerary for timely arrivals, and ensure they can fully enjoy each moment. We attend to every detail and cater to their needs throughout their stay to prevent any discomfort."
     },
     {
       title: "LOGISTICS COORDINATION & MANAGEMENT",
-      text: "We manage all transportation logistics, ensuring your guests travel smoothly to and from the venue. Our goal is to make their arrival and departure stress-free, leaving them with happy memories of the event."
+      text: "We handle all transportation logistics for your wedding with great care, making sure your guests travel to and from the venue smoothly. Our goal is to ensure their arrival and departure are easy and stress-free, leaving them with only happy memories of the event."
     },
     {
       title: "ENTERTAINMENT CURATION, COORDINATION & MANAGEMENT",
-      text: "Whether it's a top DJ, live music, or a comedic emcee, we offer a full spectrum of entertainment options. We help you choose from global or local artists, ensuring your event has the perfect entertainment to keep your guests engaged and entertained."
+      text: "Illustrious names (Celebrities) or hidden gems (entertaining artists) – we present you with the full spectrum. So, whether it’s a top DJ for a party that dances into the next day, live music to serenade your guests with, or an emcee that has you laughing all night, we’ve got you covered. Global or local – we help you choose entertainment artists from near and far!"
     },
     {
       title: "FOOD DESIGNING & CATERING AGENCY MANAGEMENT",
-      text: "Exceptional culinary experiences are our top priority. We help you choose your food team and meticulously design the menu presentation, ensuring the food is both delicious and visually stunning."
+      text: "Our top priority is providing exceptional culinary experiences. We help you choose your food team and carefully design the menu presentation, ensuring the food not only tastes great but also looks stunning."
     },
     {
       title: "DÉCOR AGENCY COORDINATION & MANAGEMENT",
-      text: "We take pride in understanding your unique taste and vision for wedding decor. We manage and coordinate with the decor team to ensure your dream visuals are flawlessly executed on your big day."
+      text: "Embarking on a journey with you, we take pride in understanding your unique taste and vision for the wedding decor. With unwavering commitment, we manage and coordinate with the decor team, ensuring your dream visuals are achieved flawlessly on the big day."
     },
     {
       title: "VENDOR COORDINATION & MANAGEMENT",
-      text: "We handle all vendor coordination, ensuring seamless communication and planning from initial consultations to final execution. Our extensive network includes top photographers, videographers, choreographers, stylists, and makeup artists, all selected to meet our high standards of excellence and creativity."
+      text: "We handle all the coordination, ensuring seamless communication and planning with each vendor. From initial consultations to final execution, we manage every detail so you can enjoy a stress-free experience. Trust us to bring together the best talents to make your wedding truly unforgettable. Photographers, Videographers, Choreographers, Stylists, and Makeup Artists: Our extensive network includes some of the most talented professionals in the industry. We meticulously select each vendor to ensure they meet our high standards of excellence and creativity."
+    },
+    {
+      title: "VIDHI MANAGEMENT",
+      text: "Looking into all requirements of any ritual or traditions that are involved with the occasion. Coordinating with the priest and your family to ensure all requirements are met. Ensuring all ritual and tradition requirements are meticulously addressed for your special occasion, coordinating closely with the priest and your family to meet every need."
     }
   ];
 
@@ -62,7 +71,7 @@ const Section = () => {
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex items-center justify-center mb-20">
-          <h1 className="text-4xl font-bold text-gray-900">SERVICES</h1>
+          <h1 className="text-6xl sm:text-7xl md:text-7xl lg:text-8xl xl:text-9xl font-medium title-font mb-4 golden-text">Services</h1>
         </div>
         <div className="flex flex-wrap -m-4">
           {content.map((item, index) => (

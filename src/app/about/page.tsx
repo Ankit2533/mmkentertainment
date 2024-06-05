@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Squad from '../components/Squad'
 const page = () => {
   return (
-    <div>page</div>
+    <Squad/>
   )
 }
 
