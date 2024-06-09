@@ -85,21 +85,6 @@
   
 }
 
-/* styles.css */
-@font-face {
-  font-family: 'ITC Edwardian Script';
-  src: url('/fonts/ITCEdwardianScript.ttf') format('truetype');
-}
-
-.golden-text {
-  font-family: 'ITC Edwardian Script', cursive;
-  color: #F7CF4F;
-}
-
-.about-heading {
-  font-family: 'ITC Edwardian Script', cursive;
-  color: #F7CF4F;
-}
 
 
 .image-container {
