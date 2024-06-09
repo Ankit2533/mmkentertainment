@@ -62,7 +62,7 @@ const Testimonials: React.FC = () => {
                   />
                 </div>
               </div>
-              <div className="w-full px-10 py-4 flex-grow flex items-center justify-center bg-transparent">
+              <div className="w-full px-10 py-4 flex-grow flex items-center justify-center bg-transparent para-text">
                 <p className="text-lg sm:text-xl md:text-2xl text-center text-black">
                   <FaQuoteLeft className="inline-block mr-2 text-gray-300" />
                   {testimonial.text}

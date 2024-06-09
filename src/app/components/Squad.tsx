@@ -47,7 +47,7 @@ const Squad = () => {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="text-6xl sm:text-7xl md:text-7xl lg:text-8xl xl:text-9xl font-medium title-font mb-4 golden-text">Meet the Minds</h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Come meet the people who will help create your special day!</p>
+          <p className="lg:w-2/3 text-lg text-black	mx-auto leading-relaxed special-text">Come meet the people who will help create your special day!</p>
         </div>
         <div className="flex flex-wrap -m-4 justify-center">
           {members.map((member, index) => (
@@ -63,8 +63,8 @@ const Squad = () => {
                     />
                   </div>
                 </div>
-                <div className="flex-grow text-center mt-3 sm:mt-4 md:mt-2 lg:mt-1 xl:mt-1">
-                  <h2 className="text-lg text-gray-900 font-medium title-font pb-2 pt-2">{member.name}</h2>
+                <div className="flex-grow  text-center mt-3 sm:mt-4 md:mt-2 lg:mt-1 xl:mt-1 para-text">
+                  <h2 className="text-lg font-bold text-gray-900 title-font pb-2 pt-2">{member.name}</h2>
                   <h3 className="tracking-widest text-indigo-500 text-sm font-medium title-font pb-3">{member.position}</h3>
                   <p className="leading-relaxed text-base">{member.description}</p>
                 </div>

@@ -3,6 +3,34 @@
   src: url("/fonts/ITCEdwardianScript.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "PlayfairDisplay-Regular";
+  src: url("/fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PlayfairDisplay-Italic";
+  src: url("/fonts/PlayfairDisplay-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PlayfairDisplay-Bold";
+  src: url("/fonts/PlayfairDisplay-Bold.ttf") format("truetype");
+}
+
+
+.para-text {
+  font-family: "PlayfairDisplay-Regular";
+}
+
+.special-text {
+  font-family: "PlayfairDisplay-Italic";
+}
+
+.para-text-bold {
+  font-family: "PlayfairDisplay-Bold";
+}
+
+
 .golden-text {
   font-family: "ITC Edwardian Script", cursive;
   color: #f7cf4f;

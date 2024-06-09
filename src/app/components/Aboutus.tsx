@@ -1,6 +1,7 @@
 import Image from "next/legacy/image";
 import styles from '/styles/about.module.css';
-import '/styles/style.css'; // Import the CSS file
+import '/styles/style.css';
+import '/styles/font.css';
 
 const AboutUs = () => {
   return (
@@ -28,7 +29,8 @@ const AboutUs = () => {
           </div>
         </div>
         <div className={styles.textContainer}>
-          <h2 className={styles.title}>Introducing the Next Generation of Wedding Planners</h2>
+          <h2 className={`${styles.title} para-text-bold`}>Introducing the Next Generation of Wedding Planners</h2>
+          <div className="para-text">
           <p>
             Our mission is to craft exceptional celebrations that bring loved ones together, honouring tradition while embracing innovation. We focus on every detail to surpass expectations and ensure your wedding is a memorable and extraordinary event.
           </p>
@@ -41,6 +43,7 @@ const AboutUs = () => {
           <p>
             Let us start crafting your story, the gateway to the rest of your life.
           </p>
+          </div>
         </div>
       </div>
     </div>

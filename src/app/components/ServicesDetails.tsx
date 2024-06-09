@@ -80,7 +80,7 @@ const Section = () => {
         <div className="flex flex-wrap -m-4">
           {content.map((item, index) => (
             <div key={index} className="p-4 sm:w-1/2 lg:w-1/3 flex">
-              <div className="bg-gray-100 p-6 rounded-lg flex flex-col items-center text-center h-full w-full">
+              <div className="bg-gray-100 p-6 rounded-lg flex flex-col items-center text-center h-full w-full para-text">
                 <div className="relative h-40 w-full overflow-hidden rounded mb-6">
                   <Image
                     src={imagePaths[index]}

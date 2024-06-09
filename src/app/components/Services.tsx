@@ -11,12 +11,12 @@ const Services = () => {
             We Specialize In
           </h1>
           <div className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            <p className="pb-3 pt-5">
+            <p className="pb-3 pt-5 text-lg para-text">
               We believe anything is possible, so think big or think wide, we
               will exceed your expectations in more ways than you can imagine
               and create everlasting experiences.
             </p>
-            <p>Looking forward to a lifetime association.</p>
+            <p className="text-2xl special-text">Looking forward to a lifetime association.</p>
           </div>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -59,7 +59,7 @@ const Services = () => {
             },
           ].map((item, index) => (
             <div key={index} className="p-4 md:w-1/3 sm:w-1/2 w-full">
-              <div className="h-full flex flex-col relative border-2 border-[#F7CF4F] rounded-lg">
+              <div className="h-full flex flex-col relative border-2 border-[#F7CF4F] rounded-lg para-text">
                 <div className="image-container flex-shrink-0 relative h-64 overflow-hidden rounded-t-lg">
                   <Image
                     alt="gallery"

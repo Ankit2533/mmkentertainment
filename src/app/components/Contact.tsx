@@ -21,7 +21,7 @@ const WeddingForm = () => {
         <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
           <div className="w-48 h-48 mb-10 rounded-full overflow-hidden">
             <Image
-              src="/images/logo.png" // Replace with the actual path to your company logo image
+              src="/images/logo.png" 
               alt="MMKEntertainment Logo"
               width={192}
               height={192}
@@ -29,8 +29,8 @@ const WeddingForm = () => {
             />
           </div>
           <div className="text-center lg:w-2/3 w-full">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Thank you for your inquiry!</h1>
-            <p className="mb-8 leading-relaxed">We appreciate your interest in MMKEntertainment. Our team will review your inquiry and get back to you soon.</p>
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 para-text">Thank you for your inquiry!</h1>
+            <p className="mb-8 leading-relaxed para-text">We appreciate your interest in MMKEntertainment. Our team will review your inquiry and get back to you soon.</p>
           </div>
         </div>
       </section>
@@ -46,19 +46,19 @@ const WeddingForm = () => {
           </div>
       <div className="container px-5 md:px-20 py-24 mx-auto flex flex-col lg:flex-row">
         <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 lg:items-start items-center">
-          <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Address</h2>
-          <p className="leading-relaxed mb-5 text-gray-600 capitalize text-center lg:text-left">
+          <h2 className="text-gray-900 text-lg mb-1 font-medium title-font para-text-bold">Address</h2>
+          <p className="leading-relaxed mb-5 text-gray-600 capitalize text-center lg:text-left para-text">
             Rock Garden, Off Link Road Kandarpada Near Lime And Spice Restaurant Dahisar West, Mumbai, Maharashtra 400068
           </p>
-          <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Contact</h2>
-          <p className="leading-relaxed mb-5 text-gray-600 text-center lg:text-left">
+          <h2 className="text-gray-900 text-lg mb-1 font-medium title-font para-text-bold">Contact</h2>
+          <p className="leading-relaxed mb-5 text-gray-600 text-center lg:text-left para-text">
             <a href="tel:+919322404922" className="text-gray-600 hover:text-yellow-500">+91 9322404922</a> / <a href="tel:+917666655513" className="text-gray-600 hover:text-yellow-500">+91 7666655513</a>
           </p>
-          <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Email</h2>
-          <p className="leading-relaxed mb-5 text-gray-600 text-center lg:text-left">
+          <h2 className="text-gray-900 text-lg mb-1 font-medium title-font para-text-bold">Email</h2>
+          <p className="leading-relaxed mb-5 text-gray-600 text-center lg:text-left para-text">
             <a href="mailto:contact@mmkentertainment.com" className="text-gray-600 hover:text-yellow-500">contact@mmkentertainment.com</a>
           </p>
-          <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Social Media</h2>
+          <h2 className="text-gray-900 text-lg mb-1 font-medium title-font para-text-bold">Social Media</h2>
           <div className="flex space-x-3">
             <a href="https://www.instagram.com/mmkentertainment" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-500">
               <FaInstagram size={30} />
@@ -73,7 +73,7 @@ const WeddingForm = () => {
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto flex flex-col items-center">
           
-          <form onSubmit={handleSubmit} className="w-full max-w-lg">
+          <form onSubmit={handleSubmit} className="w-full max-w-lg para-text">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-full">
                 <div className="relative">
