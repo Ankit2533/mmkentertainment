@@ -5,7 +5,7 @@ import Image from "next/image";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import '/styles/style.css';
+import '/styles/swiper.css';
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
