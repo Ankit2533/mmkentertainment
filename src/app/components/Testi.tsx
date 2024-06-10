@@ -29,9 +29,10 @@ const testimonials = [
 const Testimonials: React.FC = () => {
   return (
     <div 
+      id="testimonials" // Add this id
       className="w-full h-full p-10 bg-cover bg-center bg-no-repeat" 
       style={{ 
-        backgroundImage: 'url(/background/testibackground.jpg)', 
+        backgroundImage: 'url(/background/testi3background.jpg)', 
         minHeight: '100vh', 
         backgroundSize: 'cover',
         backgroundAttachment: 'fixed'

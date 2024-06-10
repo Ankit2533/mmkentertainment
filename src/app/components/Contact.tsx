@@ -174,7 +174,7 @@ const WeddingForm = () => {
                     htmlFor="about"
                     className="leading-7 text-sm text-gray-600"
                   >
-                    Tell us about you the event
+                    Tell us about your event
                   </label>
                   <textarea
                     id="about"

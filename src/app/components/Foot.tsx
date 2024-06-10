@@ -1,9 +1,18 @@
+'use client'
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 import '/styles/font.css';
 import { FaInstagram, FaYoutube, FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const router = useRouter();
+
+  const handleTestimonialsClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    e.preventDefault();
+    router.push('/#testimonials');
+  };
 
   return (
     <footer className="flex flex-col items-center p-6 bg-[#091933] relative w-full">
@@ -11,15 +20,15 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-6xl mx-auto">
         <div className="flex flex-col items-center mb-6 md:mb-0">
           <Image
-            src="/images/logo.png" 
+            src="/images/logo.png"
             alt="Company Logo"
-            width={100} 
-            height={100} 
+            width={100}
+            height={100}
             className="rounded-full"
           />
         </div>
-        <nav className="text-lg mb-6 md:mb-0 flex flex-col md:items-start para-text-bold">
-          <div className="flex flex-col md:flex-row md:space-x-8 mb-4 md:items-start ">
+        <nav className="text-lg mb-6 md:mb-0 flex flex-col items-center md:items-start para-text-bold">
+          <div className="flex flex-col md:flex-row md:space-x-8 mb-4 md:items-start">
             <a
               href="/about"
               className="text-white font-bold p-3 mb-4 md:mb-0 md:ml-4 hover:bg-[#F7CF4F] hover:text-[#091933] rounded-lg transition duration-300"
@@ -27,24 +36,25 @@ const Footer = () => {
               ABOUT US
             </a>
             <a
-              href="/gallery"
+              href="/services"
               className="text-white font-bold p-3 md:ml-4 hover:bg-[#F7CF4F] hover:text-[#091933] rounded-lg transition duration-300"
             >
-              GALLERY
+              SERVICES
             </a>
           </div>
           <div className="flex flex-col md:flex-row md:space-x-8 items-center md:items-start">
             <a
-              href="/services"
+              href="/gallery"
               className="text-white font-bold p-3 mb-2 md:mb-0 md:ml-4 hover:bg-[#F7CF4F] hover:text-[#091933] rounded-lg transition duration-300"
             >
-              SERVICES
+              GALLERY
             </a>
             <a
-              href="/work"
+              href="/#testimonials"
+              onClick={handleTestimonialsClick}
               className="text-white font-bold p-3 md:ml-4 hover:bg-[#F7CF4F] hover:text-[#091933] rounded-lg transition duration-300"
             >
-              WORK
+              TESTIMONIALS
             </a>
           </div>
         </nav>
@@ -87,7 +97,7 @@ const Footer = () => {
         <p
           className="font-bold italic text-1xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl relative z-10 para-text"
           style={{
-            backgroundImage: `url('/images/GoldBackground.jpg')`, // Using the src attribute directly
+            backgroundImage: `url('/images/GoldBackground.jpg')`,
             backgroundSize: 'auto',
             backgroundRepeat: 'repeat',
             backgroundClip: 'text',
@@ -99,7 +109,6 @@ const Footer = () => {
         </p>
       </div>
 
-      {/* Copyright */}
       <div className="w-full text-center text-gray-700 mt-4">
         <p>&copy; {currentYear} MMKEntertainment. All Rights Reserved.</p>
         <p>
