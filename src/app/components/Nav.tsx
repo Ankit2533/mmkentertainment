@@ -46,7 +46,7 @@ export const Navbar = () => {
               SERVICES
             </Link>
             <Link href="/gallery" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-[#F7CF4F] hover:text-[#353534]">
-              PHOTO GALLERY
+              GALLERY
             </Link>
             <Link href="/contact" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-[#F7CF4F] hover:text-[#353534]">
               CONTACT US
