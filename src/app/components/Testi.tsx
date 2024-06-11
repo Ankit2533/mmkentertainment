@@ -32,7 +32,7 @@ const Testimonials: React.FC = () => {
       id="testimonials" // Add this id
       className="w-full h-full p-10 bg-cover bg-center bg-no-repeat" 
       style={{ 
-        backgroundImage: 'url(/background/testi3background.jpg)', 
+        backgroundImage: 'url(/background/testi4background.jpg)', 
         minHeight: '100vh', 
         backgroundSize: 'cover',
         backgroundAttachment: 'fixed'

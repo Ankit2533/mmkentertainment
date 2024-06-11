@@ -7,7 +7,7 @@ const Section = () => {
   const images = [
     { path: '/detailservices/connecting-deeper-level.jpeg', name: 'connecting-deeper-level' },
     { path: '/detailservices/hospitality-and-guest.jpeg', name: 'hospitality-and-guest' },
-    { path: '/detailservices/vendor-coordination-and-management.jpeg', name: 'vendor-coordination-and-management' },
+    { path: '/detailservices/vendor-coordination-and-management1.jpeg', name: 'vendor-coordination-and-management' },
     { path: '/detailservices/budget-management.jpeg', name: 'budget-management' },
     { path: '/detailservices/hotel-and-venue-management2.jpeg', name: 'hotel-and-venue-management' },
     { path: '/detailservices/invitations-and-stationeries.jpeg', name: 'invitations-and-stationeries' },
