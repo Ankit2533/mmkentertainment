@@ -7,13 +7,13 @@ const Section = () => {
   const images = [
     { path: '/detailservices/connecting-deeper-level.jpeg', name: 'connecting-deeper-level' },
     { path: '/detailservices/hospitality-and-guest.jpeg', name: 'hospitality-and-guest' },
-    { path: '/detailservices/vendor-coordination-and-management1.jpeg', name: 'vendor-coordination-and-management' },
+    { path: '/detailservices/vendor-coordination-and-management.jpeg', name: 'vendor-coordination-and-management' },
     { path: '/detailservices/budget-management.jpeg', name: 'budget-management' },
-    { path: '/detailservices/hotel-and-venue-management2.jpeg', name: 'hotel-and-venue-management' },
+    { path: '/detailservices/hotel-and-venue-management.jpeg', name: 'hotel-and-venue-management' },
     { path: '/detailservices/invitations-and-stationeries.jpeg', name: 'invitations-and-stationeries' },
     { path: '/detailservices/gifts-and-hampers.jpeg', name: 'gifts-and-hampers' },
-    { path: '/detailservices/logistics-management2.jpeg', name: 'logistics-management' },
-    { path: '/detailservices/entertainment-curation3.jpeg', name: 'entertainment-curation' },
+    { path: '/detailservices/logistics-management.jpeg', name: 'logistics-management' },
+    { path: '/detailservices/entertainment-curation.jpeg', name: 'entertainment-curation' },
     { path: '/detailservices/food-designing.jpeg', name: 'food-designing' },
     { path: '/detailservices/decor-agency.jpeg', name: 'decor-agency' },
     { path: '/detailservices/vidhi-management.jpeg', name: 'vidhi-management' }
