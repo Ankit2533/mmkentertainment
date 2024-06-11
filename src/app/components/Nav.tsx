@@ -25,7 +25,7 @@ export const Navbar = () => {
         <Link href="/" className="inline-flex items-center p-2 mr-4">
           <Image src="/images/logo.png" alt="" className="w-20" width={100} height={100} />
           <span className="text-xl text-white font-bold tracking-wide para-text">
-            MMKEntertainment
+            MMK Entertainment
           </span>
         </Link>
         <button

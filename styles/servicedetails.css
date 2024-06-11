@@ -1,9 +1,11 @@
 .background-section {
   background-image: url("/background/testi4background.jpg"); /* Adjust the path if needed */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-size: auto 700px; /* Set the image height to 600px and width to auto */
+  background-repeat: repeat-y; /* Repeat the image vertically */
+  background-position: center top; /* Position the image at the top center */
+  min-height: 100vh; /* Ensure the container is at least as tall as the viewport */
 }
+
 
 .blurry-card {
   background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
