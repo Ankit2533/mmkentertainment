@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import '/styles/font.css';
+import '/styles/servicedetails.css';
 
 const Squad = () => {
   const members = [
@@ -43,7 +44,7 @@ const Squad = () => {
   ];
 
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font background-section">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="text-6xl sm:text-7xl md:text-7xl lg:text-8xl xl:text-9xl font-medium title-font mb-4 golden-text">Meet the Minds</h1>
@@ -52,7 +53,7 @@ const Squad = () => {
         <div className="flex flex-wrap -m-4 justify-center">
           {members.map((member, index) => (
             <div key={index} className="p-4 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full bg-gray-100 p-6 rounded-lg flex flex-col items-center justify-between">
+              <div className="h-full bg-gray-100 p-6 rounded-lg flex flex-col items-center justify-between blurry-card">
                 <div className="w-full relative" style={{ height: '600px' }}>
                   <div className="relative w-full h-full overflow-hidden rounded-lg" style={{ maxWidth: '500px', maxHeight: '600px' }}>
                     <Image
