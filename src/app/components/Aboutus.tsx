@@ -1,12 +1,12 @@
 import Image from "next/legacy/image";
 import styles from '/styles/about.module.css';
-import '/styles/style.css';
+
 import '/styles/font.css';
 
 const AboutUs = () => {
   return (
     <div className={`${styles.container} about-container`}>
-      <h2 className={`${styles.heading} about-heading`}>About Us</h2>
+      <h2 className={`${styles.heading} golden-text`}>About Us</h2>
       <div className={styles.content}>
         <div className={styles.imageContainer}>
           <div className={styles.imageWrapper}>
