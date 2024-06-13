@@ -69,7 +69,7 @@ export default function Gallery() {
               alt={photo.caption}
               className="w-full h-auto cursor-pointer rounded-lg shadow-lg"
               onClick={() => setActiveCarousel(index)}
-              style={{ maxWidth: '700px' }} // Adjust the max-width as needed
+              style={{ maxWidth: '600px' }} // Adjust the max-width as needed
             />
             <p className="text-center mt-2 text-lg sm:text-xl">
               {photo.caption}
