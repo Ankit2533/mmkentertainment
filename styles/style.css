@@ -29,3 +29,23 @@
 .image-container:hover img {
   transform: scale(1.1);
 }
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari, Edge) */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for all elements in WebKit browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+body {
+  scrollbar-width: none; /* For Firefox */
+}
+
+/* Hide scrollbar for all elements in Firefox */
+* {
+  scrollbar-width: none; /* For Firefox */
+}
