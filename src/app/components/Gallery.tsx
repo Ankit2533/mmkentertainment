@@ -7,6 +7,7 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import '/styles/servicedetails.css';
 
 interface Photo {
   thumbnail: string;
@@ -53,8 +54,8 @@ export default function Gallery() {
   };
 
   return (
-    <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
-      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-medium title-font mb-8 golden-text text-center">
+    <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8 background-section">
+      <h1 className="text-6xl sm:text-7xl md:text-7xl lg:text-8xl xl:text-9xl font-medium title-font mb-9 golden-text text-center">
         Gallery
       </h1>
       <div className="flex flex-wrap justify-center gap-4">
