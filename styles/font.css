@@ -34,6 +34,21 @@
 .golden-text {
   font-family: "ITC Edwardian Script", cursive;
   color: #FCC200;
+  text-shadow: 
+    -1px -1px 0 #091933,
+    1px -1px 0 #091933,
+    -1px 1px 0 #091933,
+    1px 1px 0 #091933;
+}
+
+.golden-text-white {
+  font-family: "ITC Edwardian Script", cursive;
+  color: #FCC200;
+  text-shadow: 
+    -1px -1px 0 #FFFFFF,
+    1px -1px 0 #FFFFFF,
+    -1px 1px 0 #FFFFFF,
+    1px 1px 0 #FFFFFF;
 }
 
 .about-heading {
