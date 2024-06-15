@@ -5,7 +5,7 @@ import '/styles/font.css';  // Import the CSS file
 const Services = () => {
   return (
     <section className="body-font bg-[#091933] text-white border-t-4 border-b-4 border-[#F7CF4F]">
-      <div className=" px-5 pb-10 mx-auto pt-5">
+      <div className="px-5 pb-10 mx-auto pt-5">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="text-6xl sm:text-7xl md:text-7xl lg:text-8xl xl:text-9xl font-medium title-font mb-4 golden-text-white">
             We Specialize In
@@ -22,62 +22,61 @@ const Services = () => {
         <div className="flex flex-wrap -m-4">
           {[
             {
-              imgSrc: "/images/Events/1.jpg",
+              imgSrc: "/services/wedding_events.jpeg",
               title: "Wedding Events",
               description:
                 "Crafting enchanting weddings tailored to your dreams, from elegant ceremonies to breathtaking receptions.",
             },
             {
-              imgSrc: "/images/Events/2.jpg",
+              imgSrc: "/services/destination_weddings.jpeg",
               title: "Destination Weddings",
               description:
                 "Organizing picturesque destination weddings that offer a unique and memorable experience.",
             },
             {
-              imgSrc: "/images/Events/3.jpg",
+              imgSrc: "/services/celebrity_artist_management.png",
               title: "Celebrity and Artist Management",
               description:
                 "Providing top-tier celebrities and artists, along with comprehensive management to make your events stand out.",
             },
             {
-              imgSrc: "/images/Events/4.jpg",
+              imgSrc: "/services/personal_celebrations.png",
               title: "Personal Celebrations",
               description:
                 "Creating beautiful and memorable celebrations for anniversaries, baby showers, birthday parties, and more.",
             },
             {
-              imgSrc: "/images/Events/5.jpg",
+              imgSrc: "/services/corporate_events.png",
               title: "Corporate Events",
               description:
                 "Delivering professional and seamless corporate events to help your business shine.",
             },
             {
-              imgSrc: "/images/Events/6.jpg",
+              imgSrc: "/services/gifts_hampers.png",
               title: "Gifts and Hampers",
               description:
                 "Curating exquisite gifts and hampers for all occasions, adding a personal touch to your celebrations.",
             },
           ].map((item, index) => (
             <div key={index} className="p-4 md:w-1/3 sm:w-1/2 w-full">
-              <div className="h-full flex flex-col relative border-2 border-[#F7CF4F] rounded-lg para-text">
-                <div className="image-container flex-shrink-0 relative h-64 overflow-hidden rounded-t-lg">
+              <div className="h-full flex flex-col relative border-2 border-[#F7CF4F] rounded-lg para-text group overflow-hidden">
+                <div className="relative h-96 w-full overflow-hidden rounded-t-lg">
                   <Image
                     alt="gallery"
                     src={item.imgSrc}
-                    fill
-                    style={{ objectFit: "cover", objectPosition: "center" }}
-                    className="rounded-t-lg"
+                    layout="fill"
+                    objectFit="cover"
+                    className="rounded-t-lg transform transition-transform duration-300 scale-100 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center transition-opacity duration-300 rounded-t-lg">
-                    <div className="text-center px-4 py-2 bg-white bg-opacity-75">
-                      <h1 className="title-font text-lg font-bold text-gray-900 mb-3">
-                        {item.title}
-                      </h1>
-                      <p className="leading-relaxed text-sm text-black">
-                        {item.description}
-                      </p>
+                  <div className="absolute inset-0 bg-gray-900 bg-opacity-75 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="text-center p-4">
+                      <h1 className="text-2xl font-bold text-white mb-3">{item.title}</h1>
+                      <p className="text-base text-white">{item.description}</p>
                     </div>
                   </div>
+                </div>
+                <div className="absolute bottom-0 left-0 right-0 bg-gray-900 bg-opacity-75 p-4 transition-opacity duration-300 opacity-100 group-hover:opacity-0">
+                  <h1 className="text-lg font-bold text-white text-center">{item.title}</h1>
                 </div>
               </div>
             </div>
