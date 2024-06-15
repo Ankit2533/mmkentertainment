@@ -6,6 +6,15 @@
   min-height: 100vh; /* Ensure the container is at least as tall as the viewport */
 }
 
+.background-section-contact {
+  background-image: url("/background/testi4background.jpg");
+  background-size: cover; /* This will cover the full area of the container */
+  background-repeat: no-repeat; /* This will prevent repeating */
+  background-position: center top;
+  min-height: 100vh;
+}
+
+
 
 .blurry-card {
   background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */

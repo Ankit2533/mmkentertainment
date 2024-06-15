@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import '/styles/font.css';
-import { FaInstagram, FaYoutube, FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -50,11 +49,10 @@ const Footer = () => {
               GALLERY
             </a>
             <a
-              href="/#testimonials"
-              onClick={handleTestimonialsClick}
+              href="/contact"
               className="text-white font-bold p-3 md:ml-4 hover:bg-[#F7CF4F] hover:text-[#091933] rounded-lg transition duration-300"
             >
-              TESTIMONIALS
+              CONTACT US
             </a>
           </div>
         </nav>
@@ -67,25 +65,40 @@ const Footer = () => {
               href="https://www.instagram.com/mmkentertainment/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-[#091933] hover:bg-[#F7CF4F] rounded-full p-2 transition duration-300"
+              className="hover:scale-110 transition-transform duration-300"
             >
-              <FaInstagram size={30} />
+              <Image
+                src="/social/instagram_logo_icon.png"
+                alt="Instagram"
+                width={30}
+                height={30}
+              />
             </a>
             <a
               href="https://www.youtube.com/@mmkentertainment5334"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-[#091933] hover:bg-[#F7CF4F] rounded-full p-2 transition duration-300"
+              className="hover:scale-110 transition-transform duration-300"
             >
-              <FaYoutube size={30} />
+              <Image
+                src="/social/youtube_logo_icon.png"
+                alt="YouTube"
+                width={30}
+                height={30}
+              />
             </a>
             <a
               href="https://www.facebook.com/mishalkalyani"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-[#091933] hover:bg-[#F7CF4F] rounded-full p-2 transition duration-300"
+              className="hover:scale-110 transition-transform duration-300"
             >
-              <FaFacebookF size={30} />
+              <Image
+                src="/social/facebook_logo_icon.png"
+                alt="Facebook"
+                width={30}
+                height={30}
+              />
             </a>
           </div>
         </div>
@@ -102,12 +115,7 @@ const Footer = () => {
 
       <div className="w-full text-center text-gray-700 mt-4">
         <p>&copy; {currentYear} MMKEntertainment. All Rights Reserved.</p>
-        <p>
-          Developed and Maintained by{" "}
-          <a href="https://github.com/Ankit2533" className="text-gray-500">
-            Ankit
-          </a>
-        </p>
+
       </div>
     </footer>
   );

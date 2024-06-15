@@ -1,8 +1,0 @@
-/* styles/font.css */
-.group:hover .absolute.bottom-0 {
-  opacity: 1;
-}
-
-.absolute.bottom-0 {
-  transition: opacity 0.3s ease-in-out;
-}
