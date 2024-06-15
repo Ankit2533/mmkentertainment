@@ -24,9 +24,10 @@ export const Navbar = () => {
       <nav className="flex items-center flex-wrap bg-[#091933] p-1 pl-15 pr-15 border-b-4 border-[#F7CF4F]">
         <Link href="/" className="inline-flex items-center p-2 mr-4">
           <Image src="/images/logo.png" alt="" className="w-20" width={100} height={100} />
-          <span className="text-xl text-white font-bold tracking-wide para-text">
-            MMK Entertainment
-          </span>
+          <span className="text-2xl md:text-3xl lg:text-xl text-white font-bold tracking-wide para-text">
+  MMK Entertainment
+</span>
+
         </Link>
         <button
           className="inline-flex p-3 hover:bg-[#F7CF4F] rounded lg:hidden text-white ml-auto hover:text-[#353534] outline-none"
