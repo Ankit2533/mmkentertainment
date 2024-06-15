@@ -3,8 +3,9 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from "next/image";
 import 'swiper/css';
-import '/styles/font.css'; 
-import { Autoplay } from 'swiper/modules';
+import '/styles/font.css';
+import 'swiper/css/navigation'; 
+import { Autoplay, Navigation } from 'swiper/modules';
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
 
 const testimonials = [
@@ -42,7 +43,8 @@ const Testimonials: React.FC = () => {
         What They Say
       </h2>
       <Swiper
-        modules={[Autoplay]}
+        modules={[Autoplay,Navigation]}
+        navigation={true}
         spaceBetween={50}
         slidesPerView={1}
         loop={true}

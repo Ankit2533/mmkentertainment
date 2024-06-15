@@ -95,16 +95,7 @@ const Footer = () => {
 
       <div className="w-full text-center relative">
         <p
-          className="font-bold italic text-1xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl relative z-10 para-text text-[#F7CF4F]"
-          // style={{
-          //   backgroundImage: `url('/images/GoldBackground.jpg')`,
-          //   backgroundSize: 'auto',
-          //   backgroundRepeat: 'repeat',
-          //   backgroundClip: 'text',
-          //   WebkitBackgroundClip: 'text',
-          //   color: 'transparent'
-          // }}
-        >
+          className="font-bold italic text-1xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl relative z-10 para-text text-[#F7CF4F]">
           #MMKEntertainment
         </p>
       </div>
