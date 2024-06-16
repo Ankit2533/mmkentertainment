@@ -128,7 +128,7 @@ export default function Gallery() {
           className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 overlay"
           onClick={handleOverlayClick}
         >
-          <div className="relative w-full max-w-3xl mx-auto">
+          <div className="relative w-full max-w-3xl mx-auto rounded-lg">
             <button
               className="absolute top-4 right-4 text-white text-3xl sm:text-4xl"
               onClick={() => setActiveCarousel(null)}
@@ -138,10 +138,12 @@ export default function Gallery() {
             <Swiper
               spaceBetween={10}
               loop={true}
+              pagination={{
+                dynamicBullets: true,clickable: true
+              }}
               slidesPerView={1}
               centeredSlides
               navigation
-              pagination={{ clickable: true }}
               modules={[Navigation, Pagination]}
             >
               {photos[activeCarousel]?.carousel.map((src, idx) => (
