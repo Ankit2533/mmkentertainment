@@ -116,7 +116,7 @@ const WeddingForm = () => {
                     type="text"
                     id="name"
                     name="name"
-                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-yellow-300 focus:border-[#F7CF4F] focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base sm:text-lg md:text-xl outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-yellow-300 focus:border-[#FCC200] focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base sm:text-lg md:text-xl outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     required
                   />
                   <ValidationError
@@ -138,7 +138,7 @@ const WeddingForm = () => {
                     type="email"
                     id="email"
                     name="email"
-                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-yellow-300 focus:border-[#F7CF4F] focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base sm:text-lg md:text-xl outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-yellow-300 focus:border-[#FCC200] focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base sm:text-lg md:text-xl outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     required
                   />
                   <ValidationError
@@ -160,7 +160,7 @@ const WeddingForm = () => {
                     type="text"
                     id="phoneNumber"
                     name="phoneNumber"
-                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-yellow-300 focus:border-[#F7CF4F] focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base sm:text-lg md:text-xl outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-yellow-300 focus:border-[#FCC200] focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base sm:text-lg md:text-xl outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     required
                     onBlur={(e) => {
                       e.target.setCustomValidity(
@@ -187,7 +187,7 @@ const WeddingForm = () => {
                     type="date"
                     id="eventDate"
                     name="eventDate"
-                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-yellow-300 focus:border-[#F7CF4F] focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base sm:text-lg md:text-xl outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-yellow-300 focus:border-[#FCC200] focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base sm:text-lg md:text-xl outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     required
                   />
                   <ValidationError
@@ -208,7 +208,7 @@ const WeddingForm = () => {
                   <textarea
                     id="about"
                     name="about"
-                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-yellow-300 focus:border-[#F7CF4F] focus:bg-white focus:ring-2 focus:ring-yellow-200 h-32 text-base sm:text-lg md:text-xl outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-yellow-300 focus:border-[#FCC200] focus:bg-white focus:ring-2 focus:ring-yellow-200 h-32 text-base sm:text-lg md:text-xl outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                     required
                   />
                   <ValidationError
@@ -221,7 +221,7 @@ const WeddingForm = () => {
               <div className="p-2 w-full">
                 <button
                   type="submit"
-                  className="flex mx-auto text-white bg-[#F7CF4F] border-0 py-2 px-8 focus:outline-none hover:bg-yellow-700 rounded text-lg sm:text-xl md:text-2xl"
+                  className="flex mx-auto text-white bg-[#FCC200] border-0 py-2 px-8 focus:outline-none hover:bg-yellow-700 rounded text-lg sm:text-xl md:text-2xl"
                   disabled={state.submitting}
                 >
                   Submit

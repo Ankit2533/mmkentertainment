@@ -54,7 +54,7 @@ const Footer = () => {
                       rel="noreferrer"
                       className="text-white transition-colors duration-300 relative"
                     >
-                      <div className="rounded-full p-1 bg-[#F7CF4F] hover:bg-[#ffffff] transition-colors duration-300">
+                      <div className="rounded-full p-1 bg-[#FCC200] hover:bg-[#ffffff] transition-colors duration-300">
                         <PiInstagramLogo className="w-6 h-6 text-white hover:text-[#091933] transition-colors duration-300" />
                       </div>
                     </a>
@@ -68,7 +68,7 @@ const Footer = () => {
                       rel="noreferrer"
                       className="text-white transition-colors duration-300 hover:text-teal-800 relative"
                     >
-                      <div className="rounded-full p-1 bg-[#F7CF4F] hover:bg-[#ffffff] transition-colors duration-300">
+                      <div className="rounded-full p-1 bg-[#FCC200] hover:bg-[#ffffff] transition-colors duration-300">
                         <PiFacebookLogo className="w-6 h-6 text-white hover:text-[#091933] transition-colors duration-300" />
                       </div>
                     </a>
@@ -82,7 +82,7 @@ const Footer = () => {
                       rel="noreferrer"
                       className="text-white transition-colors duration-300 hover:text-teal-800 relative"
                     >
-                      <div className="rounded-full p-1 bg-[#F7CF4F] hover:bg-[#ffffff] transition-colors duration-300">
+                      <div className="rounded-full p-1 bg-[#FCC200] hover:bg-[#ffffff] transition-colors duration-300">
                         <PiYoutubeLogoLight className="w-6 h-6 text-white hover:text-[#091933] transition-colors duration-300" />
                       </div>
                     </a>

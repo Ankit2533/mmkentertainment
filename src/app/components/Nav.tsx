@@ -22,13 +22,13 @@ export const Navbar = () => {
   if (!isMounted) return null;
 
   const linkClasses = (path: string) =>
-    `lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-[#F7CF4F] hover:text-[#353534] hover:ml-1 hover:mr-1 ${
-      pathname === path ? "bg-[#F7CF4F] text-[#353534]" : ""
+    `lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-[#FCC200] hover:text-[#353534] hover:ml-0.5 hover:mr-0.5 ${
+      pathname === path ? "bg-[#FCC200] " : ""
     }`;
 
   return (
     <>
-      <nav className="flex items-center flex-wrap bg-[#091933] p-1 pl-10 pr-10 border-b-4 border-[#F7CF4F]">
+      <nav className="flex items-center flex-wrap bg-[#091933] p-1 pl-10 pr-10 border-b-4 border-[#FCC200]">
         <Link href="/" className="inline-flex items-center p-2 mr-4">
           <Image
             src="/images/logo.png"
@@ -42,7 +42,7 @@ export const Navbar = () => {
           </span>
         </Link>
         <button
-          className="inline-flex p-4 hover:bg-[#F7CF4F] rounded lg:hidden text-white ml-auto hover:text-[#353534] outline-none"
+          className="inline-flex p-4 hover:bg-[#FCC200] rounded lg:hidden text-white ml-auto hover:text-[#353534] outline-none"
           onClick={handleClick}
         >
           {active ? <FiX size={25} /> : <FiMenu size={25} />}

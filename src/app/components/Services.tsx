@@ -4,7 +4,7 @@ import '/styles/font.css';  // Import the CSS file
 
 const Services = () => {
   return (
-    <section className="body-font bg-[#091933] text-white border-t-4 border-b-4 border-[#F7CF4F]">
+    <section className="body-font bg-[#091933] text-white border-t-4 border-b-4 border-[#FCC200]">
       <div className="px-5 pb-10 mx-auto pt-5">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="text-6xl sm:text-7xl md:text-7xl lg:text-8xl xl:text-9xl font-medium title-font mb-4 golden-text-white">
@@ -59,7 +59,7 @@ const Services = () => {
             },
           ].map((item, index) => (
             <div key={index} className="p-4 md:w-1/3 sm:w-1/2 w-full">
-              <div className="h-full flex flex-col relative border-2 border-[#F7CF4F] rounded-lg para-text group overflow-hidden">
+              <div className="h-full flex flex-col relative border-2 border-[#FCC200] rounded-lg para-text group overflow-hidden">
                 <div className="relative h-96 w-full overflow-hidden rounded-t-lg">
                   <Image
                     alt="gallery"

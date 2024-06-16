@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
     <footer className="flex flex-col items-center p-6 bg-[#091933] relative w-full">
-      <div className="absolute top-0 left-0 right-0 h-1 bg-[#F7CF4F]"></div>
+      <div className="absolute top-0 left-0 right-0 h-1 bg-[#FCC200]"></div>
       <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-6xl mx-auto">
         <div className="flex flex-col items-center mb-6 md:mb-0">
           <Image
@@ -30,13 +30,13 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row md:space-x-8 mb-4 md:items-start">
             <a
               href="/about"
-              className="text-white font-bold p-3 mb-4 md:mb-0 md:ml-4 hover:bg-[#F7CF4F] hover:text-[#091933] rounded-lg transition duration-300"
+              className="text-white font-bold p-3 mb-4 md:mb-0 md:ml-4 hover:bg-[#FCC200] hover:text-[#091933] rounded-lg transition duration-300"
             >
               ABOUT US
             </a>
             <a
               href="/services"
-              className="text-white font-bold p-3 md:ml-4 hover:bg-[#F7CF4F] hover:text-[#091933] rounded-lg transition duration-300"
+              className="text-white font-bold p-3 md:ml-4 hover:bg-[#FCC200] hover:text-[#091933] rounded-lg transition duration-300"
             >
               SERVICES
             </a>
@@ -44,13 +44,13 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row md:space-x-8 items-center md:items-start">
             <a
               href="/gallery"
-              className="text-white font-bold p-3 mb-2 md:mb-0 md:ml-4 hover:bg-[#F7CF4F] hover:text-[#091933] rounded-lg transition duration-300"
+              className="text-white font-bold p-3 mb-2 md:mb-0 md:ml-4 hover:bg-[#FCC200] hover:text-[#091933] rounded-lg transition duration-300"
             >
               GALLERY
             </a>
             <a
               href="/contact"
-              className="text-white font-bold p-3 md:ml-4 hover:bg-[#F7CF4F] hover:text-[#091933] rounded-lg transition duration-300"
+              className="text-white font-bold p-3 md:ml-4 hover:bg-[#FCC200] hover:text-[#091933] rounded-lg transition duration-300"
             >
               CONTACT US
             </a>
@@ -104,11 +104,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full h-1 bg-[#F7CF4F] my-6"></div>
+      <div className="w-full h-1 bg-[#FCC200] my-6"></div>
 
       <div className="w-full text-center relative">
         <p
-          className="font-bold italic text-1xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl relative z-10 para-text text-[#F7CF4F]">
+          className="font-bold italic text-1xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl relative z-10 para-text text-[#FCC200]">
           #MMKEntertainment
         </p>
       </div>
