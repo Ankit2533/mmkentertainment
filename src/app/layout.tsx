@@ -5,6 +5,7 @@ import Foot from "./components/Foot";
 import { Navbar } from "./components/Nav";
 import Whatsapp from "./components/Whatsapp";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {

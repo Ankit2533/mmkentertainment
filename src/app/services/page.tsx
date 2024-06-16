@@ -1,11 +1,14 @@
-import React from 'react'
-import ServicesDetails from '../components/ServicesDetails'
+import React from "react";
+import ServicesDetails from "../components/ServicesDetails";
 import "../globals.css";
+import { PageWrapper } from "../components/page-wrapper";
 
 const page = () => {
   return (
-    <ServicesDetails/>
-  )
-}
+    <PageWrapper>
+      <ServicesDetails />
+    </PageWrapper>
+  );
+};
 
-export default page
+export default page;
