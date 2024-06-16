@@ -22,7 +22,7 @@ export const Navbar = () => {
   if (!isMounted) return null;
 
   const linkClasses = (path: string) =>
-    `lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-[#F7CF4F] hover:text-[#353534] hover:ml-2 hover:mr-2 ${
+    `lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-[#F7CF4F] hover:text-[#353534] hover:ml-1 hover:mr-1 ${
       pathname === path ? "bg-[#F7CF4F] text-[#353534]" : ""
     }`;
 
