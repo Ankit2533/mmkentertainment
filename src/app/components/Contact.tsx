@@ -45,7 +45,7 @@ const WeddingForm = () => {
         </h1>
       </div>
       <div className="container px-5 md:px-20 py-24 mx-auto flex flex-col lg:flex-row">
-        <div className="lg:w-1/3 md:w-1/2 text-lg sm:text-xl md:text-2xl rounded-lg p-8 flex flex-col w-full mt-10 md:mt-0 items-center lg:items-start">
+        <div className="lg:w-1/3 md:w-1/2 text-lg sm:text-lg md:text-xl rounded-lg p-8 flex flex-col w-full mt-10 md:mt-0 items-center lg:items-start">
           <h2 className="text-gray-900 text-xl sm:text-2xl md:text-3xl mb-1 font-medium title-font para-text-bold">Address</h2>
           <p className="leading-relaxed mb-5 text-gray-600 text-center lg:text-left para-text">
             Rock Garden, Off Link Road Kandarpada Near Lime and Spice Restaurant Dahisar West, Mumbai, Maharashtra 400068
@@ -108,7 +108,7 @@ const WeddingForm = () => {
                 <div className="relative">
                   <label
                     htmlFor="name"
-                    className="leading-7 text-lg sm:text-xl md:text-2xl text-gray-600"
+                    className="leading-7 text-lg sm:text-lg md:text-xl text-gray-600"
                   >
                     Name*
                   </label>
@@ -130,7 +130,7 @@ const WeddingForm = () => {
                 <div className="relative">
                   <label
                     htmlFor="email"
-                    className="leading-7 text-lg sm:text-xl md:text-2xl text-gray-600"
+                    className="leading-7 text-lg sm:text-lg md:text-xl text-gray-600"
                   >
                     Email*
                   </label>
@@ -152,7 +152,7 @@ const WeddingForm = () => {
                 <div className="relative">
                   <label
                     htmlFor="phoneNumber"
-                    className="leading-7 text-lg sm:text-xl md:text-2xl text-gray-600"
+                    className="leading-7 text-lg sm:text-lg md:text-xl text-gray-600"
                   >
                     Phone Number*
                   </label>
@@ -179,7 +179,7 @@ const WeddingForm = () => {
                 <div className="relative">
                   <label
                     htmlFor="eventDate"
-                    className="leading-7 text-lg sm:text-xl md:text-2xl text-gray-600"
+                    className="leading-7 text-lg sm:text-lg md:text-xl text-gray-600"
                   >
                     Event Date*
                   </label>
@@ -201,7 +201,7 @@ const WeddingForm = () => {
                 <div className="relative">
                   <label
                     htmlFor="about"
-                    className="leading-7 text-lg sm:text-xl md:text-2xl text-gray-600"
+                    className="leading-7 text-lg sm:text-lg md:text-xl text-gray-600"
                   >
                     Tell us about your event
                   </label>

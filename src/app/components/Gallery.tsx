@@ -17,9 +17,53 @@ interface Photo {
 
 const photos: Photo[] = [
   {
-    thumbnail: "/background.jpg",
-    caption: "Photo 1",
-    carousel: ["/contactbackgroun.jpg", "/contactbackgroun.jpg"],
+    thumbnail: "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(1).jpg",
+    caption: "Anirudh and Warumporn",
+    carousel: ["/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(1).jpg",
+              "/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(2).jpg",
+              "/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(3).jpg",
+              "/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(4).jpg",
+              "/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(5).jpg",
+              "/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(6).jpg",
+              "/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(7).jpg",
+              "/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(8).jpg",
+              // "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(1).jpg",
+              "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(2).jpg",
+              "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(3).jpg",
+              "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(4).jpg",
+              "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(5).jpg",
+              "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(6).jpg",
+              "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(7).jpg",
+              "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(8).jpg",
+              // "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(9).jpg",
+              "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(10).jpg",
+              "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(11).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(1).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(2).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(3).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(4).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(5).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(6).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(7).jpg",
+              // "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(8).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(9).jpg",
+              // "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(10).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(11).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(12).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(13).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(14).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(15).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(16).jpg",
+              // "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(17).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(18).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(19).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(20).jpg",
+            
+            
+            
+            
+            
+            ],
   },
   {
     thumbnail: "/background.jpg",
@@ -71,7 +115,7 @@ export default function Gallery() {
               onClick={() => setActiveCarousel(index)}
               style={{ maxWidth: '600px' }} // Adjust the max-width as needed
             />
-            <p className="text-center mt-2 text-lg sm:text-xl">
+            <p className="text-center mt-2 text-lg sm:text-2xl special-text ">
               {photo.caption}
             </p>
           </div>

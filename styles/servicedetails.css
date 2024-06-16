@@ -44,3 +44,19 @@
   right: 0;
   bottom: 0;
 }
+
+
+
+/* /styles/servicedetails.css */
+.padded-portrait {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.padded-portrait img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
