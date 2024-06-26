@@ -6,7 +6,6 @@ import { Navbar } from "./components/Nav";
 import Whatsapp from "./components/Whatsapp";
 import { GoogleAnalytics } from '@next/third-parties/google'
 
-import { GoogleTagManager } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,7 +30,7 @@ export default function RootLayout({
         {children}
         <Foot />
       </body>
-      <GoogleTagManager gtmId="GTM-MJV8VD24" /> 
+      <GoogleAnalytics gaId="GTM-MJV8VD24" /> 
     </html>
   );
 }
