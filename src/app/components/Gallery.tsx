@@ -1,6 +1,6 @@
 "use client";
 import "/styles/font.css";
-import { useState,useEffect } from "react";
+import { useState,useEffect,useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -168,25 +168,10 @@ const photos: Photo[] = [
 
 export default function Gallery() {
   const [activeCarousel, setActiveCarousel] = useState<number | null>(null);
-  const [windowSize, setWindowSize] = useState({
-    width: typeof window !== 'undefined' ? window.innerWidth : 0,
-    height: typeof window !== 'undefined' ? window.innerHeight : 0,
-  });
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowSize({
-        width: window.innerWidth,
-        height: window.innerHeight,
-      });
-    };
-
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
+  const swiperRef = useRef(null);
 
   const handleOverlayClick = (e: React.MouseEvent<HTMLDivElement>) => {
-    if ((e.target as HTMLDivElement).classList.contains("overlay")) {
+    if (e.target === e.currentTarget) {
       setActiveCarousel(null);
     }
   };
@@ -221,17 +206,18 @@ export default function Gallery() {
 
       {activeCarousel !== null && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 overlay"
+          className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
           onClick={handleOverlayClick}
         >
-          <div className="relative w-full h-full max-w-4xl mx-auto">
+          <div className="relative w-full h-full max-w-4xl mx-auto flex items-center justify-center">
             <button
-              className="absolute top-4 right-4 text-black text-3xl sm:text-4xl z-10"
+              className="absolute top-4 right-4 text-white text-3xl sm:text-4xl z-10"
               onClick={() => setActiveCarousel(null)}
             >
               &times;
             </button>
             <Swiper
+              ref={swiperRef}
               spaceBetween={10}
               loop={true}
               pagination={{
@@ -243,17 +229,17 @@ export default function Gallery() {
               className="w-full h-full"
             >
               {photos[activeCarousel]?.carousel.map((src, idx) => (
-                <SwiperSlide key={idx} className="flex items-center justify-center">
-                  <div className="relative w-full h-full">
+                <SwiperSlide key={idx} className="flex items-center justify-center bg-transparent">
+                  <div className="relative w-full h-full flex items-center justify-center">
                     <img
                       src={src}
                       alt={`${photos[activeCarousel]?.caption} ${idx + 1}`}
-                      className="absolute inset-0 max-w-full max-h-full m-auto object-contain"
+                      className="max-w-full max-h-full object-contain"
                       style={{
                         width: 'auto',
                         height: 'auto',
                         maxWidth: '90%',
-                        maxHeight: '90%',
+                        maxHeight: '90vh',
                       }}
                     />
                   </div>
