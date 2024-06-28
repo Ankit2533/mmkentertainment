@@ -188,8 +188,8 @@ export default function Gallery() {
             className="flex flex-col items-center w-full sm:w-auto"
           >
             <div 
-              className="w-full  overflow-hidden rounded-lg shadow-lg cursor-pointer"
-              style={{ maxWidth: '600px' }} 
+              className="w-full aspect-[4/3] overflow-hidden rounded-lg shadow-lg cursor-pointer"
+              style={{ maxWidth: '600px' }} // Adjust the max-width as needed
               onClick={() => setActiveCarousel(index)}
             >
               <img
@@ -211,6 +211,12 @@ export default function Gallery() {
           onClick={handleOverlayClick}
         >
           <div className="relative w-full max-w-3xl mx-auto rounded-lg">
+            <button
+              className="absolute top-4 right-4 text-white text-3xl sm:text-4xl"
+              onClick={() => setActiveCarousel(null)}
+            >
+              &times;
+            </button>
             <Swiper
               spaceBetween={10}
               loop={true}
