@@ -18,7 +18,7 @@ interface Photo {
 const photos: Photo[] = [
   {
     thumbnail: "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(1).jpg",
-    caption: "Anirudh and Warumporn",
+    caption: "Anirudh and Pam",
     carousel: ["/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(1).jpg",
               "/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(2).jpg",
               "/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(3).jpg",
@@ -28,7 +28,7 @@ const photos: Photo[] = [
               "/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(7).jpg",
               "/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(8).jpg",
               "/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(9).jpg",
-              // "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(1).jpg",
+              "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(1).jpg",
               "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(2).jpg",
               "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(3).jpg",
               "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(4).jpg",
@@ -36,7 +36,7 @@ const photos: Photo[] = [
               "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(6).jpg",
               "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(7).jpg",
               "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(8).jpg",
-              // "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(9).jpg",
+              "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(9).jpg",
               "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(10).jpg",
               "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(11).jpg",
               "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(1).jpg",
@@ -46,30 +46,108 @@ const photos: Photo[] = [
               "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(5).jpg",
               "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(6).jpg",
               "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(7).jpg",
-              // "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(8).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(8).jpg",
               "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(9).jpg",
-              // "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(10).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(10).jpg",
               "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(11).jpg",
               "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(12).jpg",
               "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(13).jpg",
               "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(14).jpg",
               "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(15).jpg",
               "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(16).jpg",
-              // "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(17).jpg",
+              "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(17).jpg",
               "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(18).jpg",
               "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(19).jpg",
               "/images/Gallery/anirudh-and-warumporn/wedding/anirudh-and-warumporn_wedding(20).jpg",
-            
-            
-            
-            
-            
             ],
   },
   {
-    thumbnail: "/background.jpg",
-    caption: "Photo 2",
-    carousel: ["/contactbackgroun.jpg", "/contactbackgroun.jpg"],
+    thumbnail: "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(29).jpg",
+    caption: "Manisha and Neel",
+    carousel: ["/images/Gallery/manisha-and-neel/Haldi/manisha-and-neel-haldi(1).jpg",
+                "/images/Gallery/manisha-and-neel/Haldi/manisha-and-neel-haldi(2).jpg",
+                "/images/Gallery/manisha-and-neel/Haldi/manisha-and-neel-haldi(3).jpg",
+                "/images/Gallery/manisha-and-neel/Haldi/manisha-and-neel-haldi(4).jpg",
+                "/images/Gallery/manisha-and-neel/Haldi/manisha-and-neel-haldi(5).jpg",
+                "/images/Gallery/manisha-and-neel/Haldi/manisha-and-neel-haldi(6).jpg",
+                "/images/Gallery/manisha-and-neel/Haldi/manisha-and-neel-haldi(7).jpg",
+                "/images/Gallery/manisha-and-neel/Haldi/manisha-and-neel-haldi(8).jpg",
+                "/images/Gallery/manisha-and-neel/Haldi/manisha-and-neel-haldi(9).jpg",
+                "/images/Gallery/manisha-and-neel/Haldi/manisha-and-neel-haldi(10).jpg",
+                "/images/Gallery/manisha-and-neel/Haldi/manisha-and-neel-haldi(11).jpg",
+                "/images/Gallery/manisha-and-neel/Haldi/manisha-and-neel-haldi(11).jpg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(1).jpeg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(1).jpg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(2).jpeg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(2).jpg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(3).jpeg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(3).jpg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(4).jpeg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(4).jpg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(5).jpeg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(5).jpg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(6).jpeg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(6).jpg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(7).jpeg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(8).jpeg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(9).jpeg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(10).jpeg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(11).jpeg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(12).jpeg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(13).jpeg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(14).jpeg",
+                "/images/Gallery/manisha-and-neel/Sangeet/manisha-and-neel-sangeet(15).jpeg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(1).JPEG",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(1).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(1).PNG",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(2).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(3).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(4).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(5).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(6).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(7).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(8).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(9).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(10).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(11).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(12).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(13).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(14).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(15).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(16).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(17).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(18).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(19).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(20).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(21).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(22).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(23).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(24).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(25).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(26).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(27).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(28).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(29).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(30).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(31).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(32).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(33).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(34).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(35).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(36).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(37).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(38).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(39).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(40).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(41).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(42).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(43).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(44).jpg",
+                "/images/Gallery/manisha-and-neel/Wedding/manisha-and-neel-wedding(45).jpg",
+                "/images/Gallery/manisha-and-neel/Team/manisha-and-neel-team(1).jpg",
+                "/images/Gallery/manisha-and-neel/Team/manisha-and-neel-team(2).jpg",
+                
+            ],
   },
   {
     thumbnail: "/background.jpg",
@@ -86,7 +164,7 @@ const photos: Photo[] = [
     caption: "Photo 5",
     carousel: ["/contactbackgroun.jpg", "/contactbackgroun.jpg"],
   },
-  // Add other photo objects here...
+  
 ];
 
 export default function Gallery() {
@@ -109,13 +187,17 @@ export default function Gallery() {
             key={index}
             className="flex flex-col items-center w-full sm:w-auto"
           >
-            <img
-              src={photo.thumbnail}
-              alt={photo.caption}
-              className="w-full h-auto cursor-pointer rounded-lg shadow-lg"
-              onClick={() => setActiveCarousel(index)}
+            <div 
+              className="w-full  overflow-hidden rounded-lg shadow-lg cursor-pointer"
               style={{ maxWidth: '600px' }} // Adjust the max-width as needed
-            />
+              onClick={() => setActiveCarousel(index)}
+            >
+              <img
+                src={photo.thumbnail}
+                alt={photo.caption}
+                className="w-full h-full object-contain"
+              />
+            </div>
             <p className="text-center mt-2 text-lg sm:text-2xl special-text ">
               {photo.caption}
             </p>
@@ -123,24 +205,18 @@ export default function Gallery() {
         ))}
       </div>
 
-
       {activeCarousel !== null && (
         <div
           className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 overlay"
           onClick={handleOverlayClick}
         >
           <div className="relative w-full max-w-3xl mx-auto rounded-lg">
-            <button
-              className="absolute top-4 right-4 text-white text-3xl sm:text-4xl"
-              onClick={() => setActiveCarousel(null)}
-            >
-              &times;
-            </button>
             <Swiper
               spaceBetween={10}
               loop={true}
               pagination={{
-                dynamicBullets: true,clickable: true
+                dynamicBullets: true,
+                clickable: true
               }}
               slidesPerView={1}
               centeredSlides
@@ -149,11 +225,13 @@ export default function Gallery() {
             >
               {photos[activeCarousel]?.carousel.map((src, idx) => (
                 <SwiperSlide key={idx}>
-                  <img
-                    src={src}
-                    alt={`${photos[activeCarousel]?.caption} ${idx + 1}`}
-                    className="w-full h-auto rounded-lg"
-                  />
+                  <div className="aspect-[4/3] overflow-hidden">
+                    <img
+                      src={src}
+                      alt={`${photos[activeCarousel]?.caption} ${idx + 1}`}
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
                 </SwiperSlide>
               ))}
             </Swiper>
