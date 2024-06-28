@@ -226,7 +226,7 @@ export default function Gallery() {
         >
           <div className="relative w-full h-full max-w-4xl mx-auto">
             <button
-              className="absolute top-4 right-4 text-white text-3xl sm:text-4xl z-10"
+              className="absolute top-4 right-4 text-black text-3xl sm:text-4xl z-10"
               onClick={() => setActiveCarousel(null)}
             >
               &times;
