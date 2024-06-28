@@ -26,7 +26,7 @@ const photos: Photo[] = [
               "/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(6).jpg",
               "/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(7).jpg",
               "/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(8).jpg",
-              "/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(9).jpg",
+              "/images/Gallery/anirudh-and-warumporn/reception/anirudh-and-warumporn_reception(9).JPG",
               "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(1).jpg",
               "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(2).jpg",
               "/images/Gallery/anirudh-and-warumporn/sangeet/anirudh-and-warumporn_sangeet(3).jpg",
