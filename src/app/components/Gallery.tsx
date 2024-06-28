@@ -1,12 +1,12 @@
 "use client";
-//import "/styles/font.css";
-import { useState } from "react";
+import "/styles/font.css";
+import { useState,useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-//import '/styles/servicedetails.css';
+import '/styles/servicedetails.css';
 
 interface Photo {
   thumbnail: string;
@@ -168,6 +168,22 @@ const photos: Photo[] = [
 
 export default function Gallery() {
   const [activeCarousel, setActiveCarousel] = useState<number | null>(null);
+  const [windowSize, setWindowSize] = useState({
+    width: typeof window !== 'undefined' ? window.innerWidth : 0,
+    height: typeof window !== 'undefined' ? window.innerHeight : 0,
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const handleOverlayClick = (e: React.MouseEvent<HTMLDivElement>) => {
     if ((e.target as HTMLDivElement).classList.contains("overlay")) {
@@ -180,24 +196,23 @@ export default function Gallery() {
       <h1 className="text-6xl sm:text-7xl md:text-7xl lg:text-8xl xl:text-9xl font-medium title-font mb-9 golden-text text-center">
         Gallery
       </h1>
-      <div className="flex flex-wrap justify-center gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {photos.map((photo, index) => (
           <div
             key={index}
-            className="flex flex-col items-center w-full sm:w-auto"
+            className="flex flex-col items-center"
           >
             <div 
-              className="w-full aspect-[4/3] overflow-hidden rounded-lg shadow-lg cursor-pointer"
-              style={{ maxWidth: '600px' }} // Adjust the max-width as needed
+              className="relative w-full pb-[100%] overflow-hidden rounded-lg shadow-lg cursor-pointer"
               onClick={() => setActiveCarousel(index)}
             >
               <img
                 src={photo.thumbnail}
                 alt={photo.caption}
-                className="w-full h-full object-contain"
+                className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
-            <p className="text-center mt-2 text-lg sm:text-2xl special-text ">
+            <p className="text-center mt-2 text-lg sm:text-2xl special-text">
               {photo.caption}
             </p>
           </div>
@@ -209,8 +224,13 @@ export default function Gallery() {
           className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 overlay"
           onClick={handleOverlayClick}
         >
-          <div className="relative w-full max-w-3xl mx-auto rounded-lg">
-
+          <div className="relative w-full h-full max-w-4xl mx-auto">
+            <button
+              className="absolute top-4 right-4 text-white text-3xl sm:text-4xl z-10"
+              onClick={() => setActiveCarousel(null)}
+            >
+              &times;
+            </button>
             <Swiper
               spaceBetween={10}
               loop={true}
@@ -218,18 +238,23 @@ export default function Gallery() {
                 dynamicBullets: true,
                 clickable: true
               }}
-              slidesPerView={1}
-              centeredSlides
               navigation
               modules={[Navigation, Pagination]}
+              className="w-full h-full"
             >
               {photos[activeCarousel]?.carousel.map((src, idx) => (
-                <SwiperSlide key={idx}>
-                  <div className="aspect-[4/3] overflow-hidden">
+                <SwiperSlide key={idx} className="flex items-center justify-center">
+                  <div className="relative w-full h-full">
                     <img
                       src={src}
                       alt={`${photos[activeCarousel]?.caption} ${idx + 1}`}
-                      className="w-full h-full object-contain"
+                      className="absolute inset-0 max-w-full max-h-full m-auto object-contain"
+                      style={{
+                        width: 'auto',
+                        height: 'auto',
+                        maxWidth: '90%',
+                        maxHeight: '90%',
+                      }}
                     />
                   </div>
                 </SwiperSlide>
