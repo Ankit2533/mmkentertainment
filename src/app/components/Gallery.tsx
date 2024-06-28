@@ -1,13 +1,12 @@
-// components/Gallery.tsx
 "use client";
-import "/styles/font.css";
+//import "/styles/font.css";
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import '/styles/servicedetails.css';
+//import '/styles/servicedetails.css';
 
 interface Photo {
   thumbnail: string;
@@ -211,12 +210,7 @@ export default function Gallery() {
           onClick={handleOverlayClick}
         >
           <div className="relative w-full max-w-3xl mx-auto rounded-lg">
-            <button
-              className="absolute top-4 right-4 text-white text-3xl sm:text-4xl"
-              onClick={() => setActiveCarousel(null)}
-            >
-              &times;
-            </button>
+
             <Swiper
               spaceBetween={10}
               loop={true}
