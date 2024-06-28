@@ -189,7 +189,7 @@ export default function Gallery() {
           >
             <div 
               className="w-full  overflow-hidden rounded-lg shadow-lg cursor-pointer"
-              style={{ maxWidth: '600px' }} // Adjust the max-width as needed
+              style={{ maxWidth: '600px' }} 
               onClick={() => setActiveCarousel(index)}
             >
               <img
